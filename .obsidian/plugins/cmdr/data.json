@@ -4,12 +4,35 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "cmdr:macro-0",
+      "icon": "github",
+      "name": "Commander: Git Commit & Push",
+      "mode": "any"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
   "pageHeader": [],
-  "macros": [],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-git:commit"
+        },
+        {
+          "action": 0,
+          "commandId": "obsidian-git:push2"
+        }
+      ],
+      "name": "Git Commit & Push",
+      "icon": "star",
+      "startup": true
+    }
+  ],
   "explorer": [],
   "hide": {
     "statusbar": [],
