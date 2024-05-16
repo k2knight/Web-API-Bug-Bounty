@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "013a89c090317d83",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1ec277e2a3fa25a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37e706c3c80fc97e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Origin IP - WAF bypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7b729c97a105dc57",
+    "type": "split",
+    "children": [
+      {
+        "id": "cddd8e6a48270d46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fcac5f2ba8b11d99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9954be03509abdcb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "25fa2e280d98db29",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "412a1d84e48ebf6a",
+    "type": "split",
+    "children": [
+      {
+        "id": "838128f31be38fdd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "892bd86bc6fb65ee",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Origin IP - WAF bypass.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ee7693def65af3a1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Origin IP - WAF bypass.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffe767d48f4bc7cc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9b4341fdd280dd60",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Origin IP - WAF bypass.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "37e706c3c80fc97e",
+  "lastOpenFiles": [
+    "README.md",
+    "API Questions.md",
+    "Origin IP - WAF bypass.md"
+  ]
+}
