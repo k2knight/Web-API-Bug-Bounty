@@ -11,6 +11,7 @@
 	3) Submit valid CSRF token and cookie from another user
 5) Try to inject HTTP Header (Set-Cookie header)
 6) Chain Directory Traversal (Post to GET) to CSRF [[#SameSite Strict bypass via client-side redirect]]
+7) 
 
 
 ### No defenses
@@ -88,6 +89,5 @@ change the method from POST to GET (change email) copy the parameter and paste i
 
 Now Generate CSRF payload
 
-
-
+### SameSite Strict bypass via sibling domain
 
