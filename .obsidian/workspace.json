@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5526ee107971da50",
+            "id": "21abda39948b0743",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Questions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bfe5ba41ac17a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Origin IP - WAF bypass.md",
+                "file": "CSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Origin IP - WAF bypass.md",
+                "file": "CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Origin IP - WAF bypass.md",
+                "file": "CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Origin IP - WAF bypass.md"
+                "file": "CSRF.md"
               }
             }
           }
@@ -151,19 +138,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "cmdr:Commander: Git Commit & Push": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "1bfe5ba41ac17a46",
+  "active": "21abda39948b0743",
   "lastOpenFiles": [
     "API Questions.md",
+    "CSRF.md",
     "Origin IP - WAF bypass.md",
+    "Untitled",
     "README.md"
   ]
 }
