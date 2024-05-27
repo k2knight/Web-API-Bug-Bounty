@@ -18,6 +18,30 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "134e4f101c6d6b80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cookie Terminology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c527cd1e587d91f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web Sockets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -147,10 +171,13 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "21abda39948b0743",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
-    "API Questions.md",
+    "Web Sockets.md",
+    "Cookie Terminology.md",
     "CSRF.md",
+    "Useful Blogs or Repo's.md",
+    "API Questions.md",
     "Origin IP - WAF bypass.md",
     "Untitled",
     "README.md"
