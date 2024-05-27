@@ -176,3 +176,4 @@ We need to add the below script to achieve this.
 <script>history.pushState('','','/?0a9e0009033f679984f1dd4a00b70051.web-security-academy.net/my-account')</script>
 ```
 
+![[Pasted image 20240527204740.png]]
