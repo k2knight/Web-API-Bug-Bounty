@@ -152,7 +152,27 @@ We will craft our payload to open the OAuth page via `window.open` (open redirec
 </script>
 ```
 
+### CSRF where referrer validation depends on header being present
+
+In this CSRF is preventing by the website based on the referrer header. If we remove the referer header it is working.
+
+We can use the following line in the `<head>` section that indicates no referrer should be there.
+
+```
+<meta name="referrer" content="no-referrer">
+```
 
 
+### CSRF with broken Referer validation
 
- 
+
+The CSRF is blocking based on the referer header. But it is not validating entire referer header. Insecurely validating.
+
+if we are adding `https://attcaker.com/?correct_URL` It is working.
+
+We need to add the below script to achieve this.
+
+```
+<script>history.pushState('','','/?0a9e0009033f679984f1dd4a00b70051.web-security-academy.net/my-account')</script>
+```
+

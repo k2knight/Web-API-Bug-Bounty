@@ -8,42 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "21abda39948b0743",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "134e4f101c6d6b80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cookie Terminology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5c527cd1e587d91f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Sockets.md",
+                "file": "Web/Web Sockets.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e253dda351456aad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/CSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSRF.md",
+                "file": "Web/CSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSRF.md",
+                "file": "Web/CSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSRF.md"
+                "file": "Web/CSRF.md"
               }
             }
           }
@@ -171,15 +160,16 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "fcac5f2ba8b11d99",
+  "active": "e253dda351456aad",
   "lastOpenFiles": [
-    "Web Sockets.md",
-    "Cookie Terminology.md",
-    "CSRF.md",
-    "Useful Blogs or Repo's.md",
-    "API Questions.md",
-    "Origin IP - WAF bypass.md",
-    "Untitled",
+    "Others/Useful Blogs or Repo's.md",
+    "Web/CSRF.md",
+    "Others",
+    "Web",
+    "Web/Web Sockets.md",
+    "Web/Cookie Terminology.md",
+    "Others/API Questions.md",
+    "Web/Origin IP - WAF bypass.md",
     "README.md"
   ]
 }
