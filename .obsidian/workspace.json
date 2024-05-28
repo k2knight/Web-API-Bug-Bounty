@@ -4,119 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "10b20754027933fa",
+        "id": "485809dc1d8fd36f",
         "type": "tabs",
         "children": [
           {
-            "id": "6eab6c173366d269",
+            "id": "5f891a754716eeab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/JS Files.md",
+                "file": "Web/SSRF.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fe92eeb211fa6e52",
+            "id": "56d678cd05d635a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Recon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6eadb36e790c31ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/VPS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e93b00e7b49f6dcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Shodan.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4fda37b3e1159360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c8a812082f867faf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/CSRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64769e4c134867f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Tips from blogs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cf491636c67758f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Open Redirect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f513e94c87acacd1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/403 Bypass.md",
+                "file": "Web/OAuth.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -182,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/CSRF.md",
+                "file": "Web/OAuth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/CSRF.md",
+                "file": "Web/OAuth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/CSRF.md"
+                "file": "Web/OAuth.md"
               }
             }
           }
@@ -245,10 +161,20 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "c8a812082f867faf",
+  "active": "56d678cd05d635a9",
   "lastOpenFiles": [
+    "Web/SSRF.md",
+    "Web/OAuth.md",
+    "Web/XSS/BXSS.md",
+    "Web/XSS/XSS Tools.md",
+    "Web/XSS/XSS.md",
+    "Web/XSS",
+    "Web/Untitled.md",
+    "Others/Certbot.md",
+    "Web/JWT.md",
+    "Web/File Upload.md",
+    "Web/CSRF.md",
     "Attachments/Pasted image 20240527204740.png",
-    "Web/XSS.md",
     "Bug Bounty/Tips from blogs.md",
     "Bug Bounty/VPS.md",
     "Bug Bounty/403 Bypass.md",
@@ -264,14 +190,12 @@
     "Attachments",
     "Bug Bounty/Automation.md",
     "Attachments/Pasted image 20240527171129.png",
-    "Web/CSRF.md",
     "Bug Bounty",
     "Web/Web Sockets.md",
     "Others/Useful Blogs or Repo's.md",
     "Others",
     "Web",
     "Web/Cookie Terminology.md",
-    "Others/API Questions.md",
-    "README.md"
+    "Others/API Questions.md"
   ]
 }
