@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Reports & Blogs/Tips.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Reports & Blogs/Tips.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Reports & Blogs/Tips.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/SSRF.md"
+                "file": "Reports & Blogs/Tips.md"
               }
             }
           }
@@ -150,12 +150,13 @@
   },
   "active": "5f891a754716eeab",
   "lastOpenFiles": [
+    "Web/SSRF.md",
+    "Reports & Blogs/Tips.md",
     "Web/OAuth.md",
     "Reports & Blogs/SSRF.md",
     "Web/Open Redirect.md",
     "Reports & Blogs",
     "Web/Untitled",
-    "Web/SSRF.md",
     "Web/XSS/BXSS.md",
     "Web/XSS/XSS Tools.md",
     "Web/XSS/XSS.md",
@@ -184,7 +185,6 @@
     "Web/Web Sockets.md",
     "Others/Useful Blogs or Repo's.md",
     "Others",
-    "Web",
-    "Web/Cookie Terminology.md"
+    "Web"
   ]
 }
