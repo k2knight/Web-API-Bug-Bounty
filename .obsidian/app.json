@@ -3,5 +3,6 @@
   "showIndentGuide": true,
   "readableLineLength": false,
   "showInlineTitle": false,
-  "attachmentFolderPath": "Attachments"
+  "attachmentFolderPath": "Attachments",
+  "promptDelete": false
 }

@@ -17,3 +17,7 @@ These are cookies that cannot be accessed or modified by JavaScript.
 ## Secure
 
 The `Secure` attribute for cookies ensures that the cookie is only sent over HTTPS.
+
+## SOP (Same-Origin Policy):
+
+restrict how a script loaded from one origin can interact with resources from another origin.
