@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dcd98865a463e285",
+        "id": "e93045aee4cc04c7",
         "type": "tabs",
         "children": [
           {
-            "id": "4b487edd31a82d53",
+            "id": "9324ba6f4e30319d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Google Dorks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28b8eee0a079f4ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Shodan Dorks.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,7 +144,7 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "28b8eee0a079f4ce",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
     "Bug Bounty/Shodan.md",
     "Bug Bounty/Shodan Dorks.md",
