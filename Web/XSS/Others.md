@@ -1,4 +1,4 @@
-
+```
 https://jsfuck.com/  ------------ Encoding the alert(1) payload to trigger XSS.
  
 https://utf-8.jp/public/aaencode.html    ------------    aaencode - Encode any JavaScript program to Japanese style emoticons (^_^)
@@ -268,3 +268,4 @@ What we can do if we find out an XSS:
  
  
 Bypassing the SCRIPT tags
+```

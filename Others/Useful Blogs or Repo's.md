@@ -2,3 +2,7 @@
 
 https://github.com/rkhal101/Web-Security-Academy-Series/
 
+https://github.com/reddelexc/hackerone-reports
+
+
+
