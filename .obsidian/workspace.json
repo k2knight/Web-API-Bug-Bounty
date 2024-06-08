@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/BAC.md",
+                "file": "Bug Bounty/WAF Bypass.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/BAC.md",
+                "file": "Bug Bounty/WAF Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/BAC.md",
+                "file": "Bug Bounty/WAF Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/BAC.md"
+                "file": "Bug Bounty/WAF Bypass.md"
               }
             }
           }
@@ -211,8 +211,9 @@
   },
   "active": "c72da1550ca113df",
   "lastOpenFiles": [
-    "Web/SSRF.md",
     "Web/BAC.md",
+    "Bug Bounty/WAF Bypass.md",
+    "Web/SSRF.md",
     "Web/XSS/XSS.md",
     "Web/XSS/Others.md",
     "Web/XSS/XSS Tools.md",
@@ -240,7 +241,6 @@
     "Bug Bounty/Methodology.md",
     "Web/Origin IP - WAF bypass.md",
     "Bug Bounty/Sub Domain Enumeration.md",
-    "Bug Bounty/Recon.md",
     "Attachments/Pasted image 20240527191733.png",
     "Attachments",
     "Attachments/Pasted image 20240527171129.png",
