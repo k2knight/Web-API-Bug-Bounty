@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/WAF Bypass.md",
+                "file": "Web/XSS/XSS Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/WAF Bypass.md",
+                "file": "Web/XSS/XSS Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/WAF Bypass.md"
+                "file": "Web/XSS/XSS Tools.md"
               }
             }
           }
@@ -209,12 +209,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "c72da1550ca113df",
+  "active": "f4e5383e56f60a76",
   "lastOpenFiles": [
-    "Web/BAC.md",
-    "Bug Bounty/WAF Bypass.md",
-    "Web/SSRF.md",
     "Web/XSS/XSS.md",
+    "Bug Bounty/WAF Bypass.md",
+    "Web/BAC.md",
+    "Web/SSRF.md",
     "Web/XSS/Others.md",
     "Web/XSS/XSS Tools.md",
     "Web/XSS/BXSS.md",

