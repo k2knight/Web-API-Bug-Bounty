@@ -15,6 +15,12 @@ you can fuzz with traversal sometimes that's end with results
   
 Example: /..;/FUZZ  
 
+3 - mixed case
+
+upload --> 403
+
+uPlOaDs --> 200
+
 ---
 
 https://target/api/admin/users/123 <-- blocked
