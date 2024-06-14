@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4cfe1cfc4814e20a",
+        "id": "ee361a8cfcf47cab",
         "type": "tabs",
         "children": [
           {
-            "id": "afec85c9c52e8b1c",
+            "id": "a20a79572d813173",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -140,19 +140,23 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "afec85c9c52e8b1c",
+  "active": "a20a79572d813173",
   "lastOpenFiles": [
+    "Web/SQL.md",
+    "Others/Docker.md",
+    "Others/Useful Blogs or Repo's.md",
+    "Web/Open Redirect.md",
+    "Bug Bounty/Open Redirect.md",
+    "Web/XSS/XSS.md",
     "Bug Bounty/Methodology.md",
     "Reports & Blogs/Tips.md",
     "Reports & Blogs/SSRF.md",
-    "Others/Useful Blogs or Repo's.md",
     "Web/Origin IP - WAF bypass.md",
     "Bug Bounty/Sub-Domain Takeover.md",
     "Bug Bounty/403 Bypass.md",
     "Web/SSRF.md",
     "Web/XSS/XSS Tools.md",
     "Bug Bounty/WAF Bypass.md",
-    "Web/XSS/XSS.md",
     "Web/Cookie Terminology.md",
     "Web/BAC.md",
     "Web/XSS/Others.md",
@@ -161,17 +165,13 @@
     "Bug Bounty/Shodan Dorks.md",
     "Bug Bounty/Google Dorks.md",
     "Web/OAuth.md",
-    "Web/Open Redirect.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",
     "Others/Certbot.md",
     "Web/JWT.md",
     "Web/File Upload.md",
-    "Web/CSRF.md",
     "Attachments/Pasted image 20240527204740.png",
-    "Bug Bounty/Tips from blogs.md",
-    "Bug Bounty/VPS.md",
     "Attachments/Pasted image 20240527191733.png",
     "Attachments",
     "Attachments/Pasted image 20240527171129.png",
