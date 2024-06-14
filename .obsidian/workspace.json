@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d522c9edef422e90",
+        "id": "4cfe1cfc4814e20a",
         "type": "tabs",
         "children": [
           {
-            "id": "01e846018507bfdc",
+            "id": "afec85c9c52e8b1c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/403 Bypass.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/403 Bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/403 Bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bug Bounty/403 Bypass.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,13 +140,19 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "fcac5f2ba8b11d99",
+  "active": "afec85c9c52e8b1c",
   "lastOpenFiles": [
+    "Bug Bounty/Methodology.md",
+    "Reports & Blogs/Tips.md",
+    "Reports & Blogs/SSRF.md",
+    "Others/Useful Blogs or Repo's.md",
+    "Web/Origin IP - WAF bypass.md",
+    "Bug Bounty/Sub-Domain Takeover.md",
+    "Bug Bounty/403 Bypass.md",
     "Web/SSRF.md",
     "Web/XSS/XSS Tools.md",
     "Bug Bounty/WAF Bypass.md",
     "Web/XSS/XSS.md",
-    "Others/Useful Blogs or Repo's.md",
     "Web/Cookie Terminology.md",
     "Web/BAC.md",
     "Web/XSS/Others.md",
@@ -163,8 +161,6 @@
     "Bug Bounty/Shodan Dorks.md",
     "Bug Bounty/Google Dorks.md",
     "Web/OAuth.md",
-    "Reports & Blogs/Tips.md",
-    "Reports & Blogs/SSRF.md",
     "Web/Open Redirect.md",
     "Reports & Blogs",
     "Web/Untitled",
@@ -176,10 +172,6 @@
     "Attachments/Pasted image 20240527204740.png",
     "Bug Bounty/Tips from blogs.md",
     "Bug Bounty/VPS.md",
-    "Bug Bounty/403 Bypass.md",
-    "Bug Bounty/Methodology.md",
-    "Web/Origin IP - WAF bypass.md",
-    "Bug Bounty/Sub Domain Enumeration.md",
     "Attachments/Pasted image 20240527191733.png",
     "Attachments",
     "Attachments/Pasted image 20240527171129.png",
