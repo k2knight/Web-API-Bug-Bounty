@@ -4,5 +4,6 @@
   "readableLineLength": false,
   "showInlineTitle": false,
   "attachmentFolderPath": "Attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": true
 }

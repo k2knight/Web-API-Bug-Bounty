@@ -21,3 +21,6 @@ The `Secure` attribute for cookies ensures that the cookie is only sent over HTT
 ## SOP (Same-Origin Policy):
 
 restrict how a script loaded from one origin can interact with resources from another origin.
+
+## Content security policy
+

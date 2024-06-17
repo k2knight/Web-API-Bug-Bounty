@@ -4,18 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "b5b961734a9d7e31",
+        "id": "66ee276c1dbbf8e3",
         "type": "tabs",
         "children": [
           {
-            "id": "9b2f83b903f17571",
+            "id": "cba7b047bb83963e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Checklist/Recon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2af3c71845b6e59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/CORS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc1a12184e3dabf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e414c778a508f88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/Exploitation.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -81,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/XSS/Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web/XSS/Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web/XSS/Exploitation.md"
+              }
             }
           }
         ],
@@ -140,15 +185,24 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "9b2f83b903f17571",
+  "active": "6e414c778a508f88",
   "lastOpenFiles": [
+    "Others/Certbot.md",
+    "Web/XSS/Exploitation.md",
+    "().md",
+    "Web/XSS/XSS.md",
+    "Web/Cookie Terminology.md",
+    "Web/CORS.md",
+    "Bug Bounty/Checklist/Recon.md",
+    "Web/BA.md",
+    "Bug Bounty/Checklist",
+    "Web/BAC.md",
     "Reports & Blogs/SSRF.md",
     "Web/SQL.md",
     "Others/Docker.md",
     "Others/Useful Blogs or Repo's.md",
     "Web/Open Redirect.md",
     "Bug Bounty/Open Redirect.md",
-    "Web/XSS/XSS.md",
     "Bug Bounty/Methodology.md",
     "Reports & Blogs/Tips.md",
     "Web/Origin IP - WAF bypass.md",
@@ -157,20 +211,12 @@
     "Web/SSRF.md",
     "Web/XSS/XSS Tools.md",
     "Bug Bounty/WAF Bypass.md",
-    "Web/Cookie Terminology.md",
-    "Web/BAC.md",
     "Web/XSS/Others.md",
     "Web/XSS/BXSS.md",
     "Bug Bounty/Shodan.md",
-    "Bug Bounty/Shodan Dorks.md",
-    "Bug Bounty/Google Dorks.md",
-    "Web/OAuth.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",
-    "Others/Certbot.md",
-    "Web/JWT.md",
-    "Web/File Upload.md",
     "Attachments/Pasted image 20240527204740.png",
     "Attachments/Pasted image 20240527191733.png",
     "Attachments",
