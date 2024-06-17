@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "66ee276c1dbbf8e3",
+        "id": "8b3eaf08868034c9",
         "type": "tabs",
         "children": [
           {
-            "id": "cba7b047bb83963e",
+            "id": "dd9fc103301373da",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Checklist/Recon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2af3c71845b6e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/CORS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc1a12184e3dabf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e414c778a508f88",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/XSS/Exploitation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/XSS/Exploitation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web/XSS/Exploitation.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -185,12 +140,14 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "6e414c778a508f88",
+  "active": "dd9fc103301373da",
   "lastOpenFiles": [
-    "Others/Certbot.md",
     "Web/XSS/Exploitation.md",
-    "().md",
+    "Web/SQL.md",
+    "Web/SSRF.md",
     "Web/XSS/XSS.md",
+    "Others/Certbot.md",
+    "().md",
     "Web/Cookie Terminology.md",
     "Web/CORS.md",
     "Bug Bounty/Checklist/Recon.md",
@@ -198,7 +155,6 @@
     "Bug Bounty/Checklist",
     "Web/BAC.md",
     "Reports & Blogs/SSRF.md",
-    "Web/SQL.md",
     "Others/Docker.md",
     "Others/Useful Blogs or Repo's.md",
     "Web/Open Redirect.md",
@@ -208,7 +164,6 @@
     "Web/Origin IP - WAF bypass.md",
     "Bug Bounty/Sub-Domain Takeover.md",
     "Bug Bounty/403 Bypass.md",
-    "Web/SSRF.md",
     "Web/XSS/XSS Tools.md",
     "Bug Bounty/WAF Bypass.md",
     "Web/XSS/Others.md",

@@ -13,4 +13,5 @@ Add this header in the request followed by our attacker URL.
 
 it will send cookies, internal requests, IP. To our server.
 
+SVG  `https://github.com/allanlw/svg-cheatsheet`
 
