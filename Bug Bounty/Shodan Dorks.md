@@ -19,3 +19,7 @@
 
 
 ```
+
+https://web.archive.org/web/20240118221726/https://community.turgensec.com/shodan-pentesting-guide/
+
+https://github.com/jakejarvis/awesome-shodan-queries

@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0daf0703c27cb24d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Shodan Dorks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "700dd362bef1b5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Checklist/Recon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/XSS/XSS.md",
+                "file": "Bug Bounty/Checklist/Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/XSS/XSS.md",
+                "file": "Bug Bounty/Checklist/Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/XSS/XSS.md"
+                "file": "Bug Bounty/Checklist/Recon.md"
               }
             }
           }
@@ -185,10 +209,13 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "e3f02197706a2b54",
+  "active": "700dd362bef1b5b0",
   "lastOpenFiles": [
-    "Others/Useful Blogs or Repo's.md",
+    "Bug Bounty/Shodan Dorks.md",
+    "Bug Bounty/Checklist/Recon.md",
+    "Attachments/Pasted image 20240618230537.png",
     "Web/XSS/XSS.md",
+    "Others/Useful Blogs or Repo's.md",
     "Web/Command Injection.md",
     "Web/BA.md",
     "Web/XSS/Exploitation.md",
@@ -198,7 +225,6 @@
     "().md",
     "Web/Cookie Terminology.md",
     "Web/CORS.md",
-    "Bug Bounty/Checklist/Recon.md",
     "Bug Bounty/Checklist",
     "Web/BAC.md",
     "Reports & Blogs/SSRF.md",
@@ -213,7 +239,6 @@
     "Web/XSS/XSS Tools.md",
     "Bug Bounty/WAF Bypass.md",
     "Web/XSS/Others.md",
-    "Web/XSS/BXSS.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",
