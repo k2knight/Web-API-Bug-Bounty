@@ -56,6 +56,30 @@
             }
           },
           {
+            "id": "19d2682b034f53a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/Others.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "671351c6a84339a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/Exploitation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0daf0703c27cb24d",
             "type": "leaf",
             "state": {
@@ -78,9 +102,57 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fa11673569475cae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Checklist/Sub Domain Enum.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9489e26272b27a23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Open Redirect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "89b5b83b3a45b55d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/SSRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d658ebaa71f7cc77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/CORS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -146,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug Bounty/Checklist/Recon.md",
+                "file": "Web/CORS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug Bounty/Checklist/Recon.md",
+                "file": "Web/CORS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug Bounty/Checklist/Recon.md"
+                "file": "Web/CORS.md"
               }
             }
           }
@@ -209,18 +281,21 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "700dd362bef1b5b0",
+  "active": "d658ebaa71f7cc77",
   "lastOpenFiles": [
-    "Bug Bounty/Shodan Dorks.md",
-    "Bug Bounty/Checklist/Recon.md",
-    "Attachments/Pasted image 20240618230537.png",
+    "Web/SSRF.md",
+    "Web/XSS/Exploitation.md",
+    "Web/XSS/Others.md",
     "Web/XSS/XSS.md",
+    "Bug Bounty/Open Redirect.md",
+    "Bug Bounty/Checklist/Sub Domain Enum.md",
+    "Bug Bounty/Checklist/Recon.md",
+    "Bug Bounty/Shodan Dorks.md",
+    "Attachments/Pasted image 20240618230537.png",
     "Others/Useful Blogs or Repo's.md",
     "Web/Command Injection.md",
     "Web/BA.md",
-    "Web/XSS/Exploitation.md",
     "Web/SQL.md",
-    "Web/SSRF.md",
     "Others/Certbot.md",
     "().md",
     "Web/Cookie Terminology.md",
@@ -230,15 +305,12 @@
     "Reports & Blogs/SSRF.md",
     "Others/Docker.md",
     "Web/Open Redirect.md",
-    "Bug Bounty/Open Redirect.md",
     "Bug Bounty/Methodology.md",
     "Reports & Blogs/Tips.md",
     "Web/Origin IP - WAF bypass.md",
     "Bug Bounty/Sub-Domain Takeover.md",
     "Bug Bounty/403 Bypass.md",
     "Web/XSS/XSS Tools.md",
-    "Bug Bounty/WAF Bypass.md",
-    "Web/XSS/Others.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",

