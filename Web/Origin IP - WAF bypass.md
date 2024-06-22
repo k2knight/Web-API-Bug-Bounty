@@ -9,6 +9,8 @@ dnsrecon
 
 hakoriginfinder https://github.com/hakluke/hakoriginfinder
 
+`host <URL>`
+
 ---
 
 ## Websites
