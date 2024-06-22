@@ -10,6 +10,8 @@ This attack vector utilizes DNS entries pointing to Service Providers where the 
 https://github.com/michenriksen/aquatone
 https://github.com/Ice3man543/SubOver
 https://github.com/haccer/subjack
+https://github.com/nahamsec/HostileSubBruteforcer
+hostile sub bruteforcer
 
 validations
 
@@ -26,6 +28,9 @@ https://0xpatrik.com/takeover-proofs/  <-- PoC
 
 `dig sub.example.com CNAME`
 
+```
+subzy -targets target_urls.txt -hide_fails
+```
 
 ##### regexes to test the correct canonical name:
 

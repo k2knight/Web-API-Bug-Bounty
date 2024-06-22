@@ -4,131 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "8b3eaf08868034c9",
+        "id": "408b848d70d67beb",
         "type": "tabs",
         "children": [
           {
-            "id": "dd9fc103301373da",
+            "id": "d37882654bd11bda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/BA.md",
+                "file": "Bug Bounty/Tips from blogs.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fdd39dbd36c37a63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Command Injection.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aff739c773a013bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Others/Useful Blogs or Repo's.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e3f02197706a2b54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/XSS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "19d2682b034f53a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/Others.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "671351c6a84339a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/Exploitation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0daf0703c27cb24d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Shodan Dorks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "700dd362bef1b5b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Checklist/Recon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa11673569475cae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Checklist/Sub Domain Enum.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3bcf5444d9233bdc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7beda1acc96f1869",
+            "id": "e3081caa83e621ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -138,57 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "80bdf4041fa5b89f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Origin IP - WAF bypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9489e26272b27a23",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Open Redirect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8176983b8389a1e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/File Upload.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d658ebaa71f7cc77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/CORS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 10
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -317,11 +161,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "7beda1acc96f1869",
+  "active": "e3081caa83e621ac",
   "lastOpenFiles": [
+    "Bug Bounty/Tips from blogs.md",
+    "Bug Bounty/Sub-Domain Takeover.md",
     "Attachments/Pasted image 20240622120719.png",
     "Web/Origin IP - WAF bypass.md",
-    "Bug Bounty/Sub-Domain Takeover.md",
     "Web/Tools.md",
     "Bug Bounty/Untitled.md",
     "Web/Long length DoS.md",
