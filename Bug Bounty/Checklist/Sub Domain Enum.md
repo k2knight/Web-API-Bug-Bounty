@@ -1,5 +1,9 @@
 # Sub Domain Enum
 
+altdns - subdomains of subdomain
+
+www.httpstatus.io
+
 https://github.com/Findomain/Findomain
 
 

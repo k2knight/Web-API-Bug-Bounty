@@ -116,6 +116,18 @@
             }
           },
           {
+            "id": "3bcf5444d9233bdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9489e26272b27a23",
             "type": "leaf",
             "state": {
@@ -152,7 +164,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -218,7 +230,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/File Upload.md",
+                "file": "Web/Tools.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +247,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/File Upload.md",
+                "file": "Web/Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +270,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/File Upload.md"
+                "file": "Web/Tools.md"
               }
             }
           }
@@ -281,16 +293,17 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "8176983b8389a1e6",
+  "active": "3bcf5444d9233bdc",
   "lastOpenFiles": [
-    "Bug Bounty/Open Redirect.md",
-    "Web/Untitled.md",
     "Web/Long length DoS.md",
+    "Web/Tools.md",
+    "Bug Bounty/Checklist/Sub Domain Enum.md",
+    "Bug Bounty/Checklist/Recon.md",
+    "Web/File Upload.md",
+    "Bug Bounty/Open Redirect.md",
     "Web/SSRF.md",
     "Web/XSS/Exploitation.md",
     "Bug Bounty/Shodan Dorks.md",
-    "Bug Bounty/Checklist/Recon.md",
-    "Bug Bounty/Checklist/Sub Domain Enum.md",
     "Web/CORS.md",
     "Web/BA.md",
     "Others/Certbot.md",
@@ -310,7 +323,6 @@
     "Bug Bounty/Methodology.md",
     "Reports & Blogs/Tips.md",
     "Web/Origin IP - WAF bypass.md",
-    "Bug Bounty/Sub-Domain Takeover.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",
