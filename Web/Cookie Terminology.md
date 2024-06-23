@@ -21,6 +21,17 @@ The `Secure` attribute for cookies ensures that the cookie is only sent over HTT
 ## SOP (Same-Origin Policy):
 
 restrict how a script loaded from one origin can interact with resources from another origin.
+OR
+Prevents a website from accessing resources belonging to other websites
 
 ## Content security policy
 
+Syntax- Content—Security-Policy: $directives "sources"
+
+`default-src` - Used to allow certain domains which can share resources with us
+
+`script-src` -  Used to allow trusted domains to load scripts
+Prevents XSS Attack
+
+`frame-ancestors` - used to allow specific domains to load our website inside the iframe
+Prevents Clickjacking Attack

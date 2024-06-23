@@ -61,14 +61,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Session Based.md",
+                "file": "Web/Captcha Bypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "12cb0378a26a619a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Command Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec762ab62935dbf1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Cookie Terminology.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -134,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Session Based.md",
+                "file": "Web/Cookie Terminology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Session Based.md",
+                "file": "Web/Cookie Terminology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Session Based.md"
+                "file": "Web/Cookie Terminology.md"
               }
             }
           }
@@ -197,10 +221,13 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "f25c0b3deeb3dc64",
+  "active": "ec762ab62935dbf1",
   "lastOpenFiles": [
-    "Web/Missing HSTS.md",
+    "Web/Command Injection.md",
+    "Web/Cookie Terminology.md",
+    "Web/Captcha Bypass.md",
     "Web/Session Based.md",
+    "Web/Missing HSTS.md",
     "Web/SQL.md",
     "Web/JWT.md",
     "Web/BA.md",
@@ -224,9 +251,6 @@
     "Web/XSS/XSS.md",
     "Attachments/Pasted image 20240618230537.png",
     "Others/Useful Blogs or Repo's.md",
-    "Web/Command Injection.md",
-    "().md",
-    "Web/Cookie Terminology.md",
     "Bug Bounty/Checklist",
     "Reports & Blogs",
     "Web/Untitled",

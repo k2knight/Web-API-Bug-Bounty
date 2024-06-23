@@ -10,3 +10,7 @@
 
 **Scenario 3** : login --> copy cookie --> logout --> import copied cookie to the browser --> if we logged IN in 1st browser it is session fixation
 
+#### Session Transmission
+
+
+Session ID in URL Vulnerability
