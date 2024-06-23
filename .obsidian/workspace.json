@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc5ae2217f00a04d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/JWT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f25c0b3deeb3dc64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Session Based.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/BA.md",
+                "file": "Web/Session Based.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/BA.md",
+                "file": "Web/Session Based.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/BA.md"
+                "file": "Web/Session Based.md"
               }
             }
           }
@@ -173,8 +197,13 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "1efce4a191df04b5",
+  "active": "f25c0b3deeb3dc64",
   "lastOpenFiles": [
+    "Web/Missing HSTS.md",
+    "Web/Session Based.md",
+    "Web/SQL.md",
+    "Web/JWT.md",
+    "Web/BA.md",
     "Bug Bounty/Sub-Domain Takeover.md",
     "Bug Bounty/Tips from blogs.md",
     "Attachments/Pasted image 20240622120719.png",
@@ -190,20 +219,15 @@
     "Web/XSS/Exploitation.md",
     "Bug Bounty/Shodan Dorks.md",
     "Web/CORS.md",
-    "Web/BA.md",
     "Others/Certbot.md",
     "Web/XSS/Others.md",
     "Web/XSS/XSS.md",
     "Attachments/Pasted image 20240618230537.png",
     "Others/Useful Blogs or Repo's.md",
     "Web/Command Injection.md",
-    "Web/SQL.md",
     "().md",
     "Web/Cookie Terminology.md",
     "Bug Bounty/Checklist",
-    "Web/BAC.md",
-    "Reports & Blogs/SSRF.md",
-    "Others/Docker.md",
     "Reports & Blogs",
     "Web/Untitled",
     "Web/XSS",
