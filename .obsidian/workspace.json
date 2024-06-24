@@ -97,14 +97,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Web/CRLF Injection.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "72193275c1a736c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Web/File Upload.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23d927b9d194319f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Methodology.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -170,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/File Upload.md",
+                "file": "Bug Bounty/Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/File Upload.md",
+                "file": "Bug Bounty/Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/File Upload.md"
+                "file": "Bug Bounty/Methodology.md"
               }
             }
           }
@@ -233,10 +257,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "a0df5e18d98e835e",
+  "active": "23d927b9d194319f",
   "lastOpenFiles": [
+    "Web/File Upload.md",
+    "Web/CRLF Injection.md",
+    "Attachments/Pasted image 20240624110303.png",
     "Web/SSTI.md",
-    "Web/Untitled.md",
     "Web/Clickjacking.md",
     "Web/Cookie Terminology.md",
     "Web/Command Injection.md",
@@ -255,13 +281,11 @@
     "Web/Long length DoS.md",
     "Bug Bounty/Checklist/Sub Domain Enum.md",
     "Bug Bounty/Checklist/Recon.md",
-    "Web/File Upload.md",
     "Bug Bounty/Open Redirect.md",
     "Web/SSRF.md",
     "Web/XSS/Exploitation.md",
     "Bug Bounty/Shodan Dorks.md",
     "Web/CORS.md",
-    "Others/Certbot.md",
     "Attachments/Pasted image 20240618230537.png",
     "Bug Bounty/Checklist",
     "Reports & Blogs",
