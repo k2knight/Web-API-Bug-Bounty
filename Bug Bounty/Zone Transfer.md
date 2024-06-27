@@ -1,6 +1,6 @@
 # DNS Zone Transfer
 
-dns zone transfer is used to copy a zone file from a master dns to a slave dns
+DNS zone transfer is used to copy a zone file from a master dns to a slave dns
 
 
 Identify the DNS Servers
