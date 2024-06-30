@@ -12,7 +12,7 @@
 5) Try to inject HTTP Header (Set-Cookie header)
 6) Chain Directory Traversal (Post to GET) to CSRF [[#SameSite Strict bypass via client-side redirect]]
 7) Chain subdomain XSS (to bypass same-site:strict) to ping the burp collaborator and send websocket data to the collab url. [[#SameSite Strict bypass via sibling domain]]
-8) 
+8) SameSite cookie lax bypass - generate CSRF PoC from burpsuite --> change request method --> then we will get the cookie
 
 
 ### No defenses
