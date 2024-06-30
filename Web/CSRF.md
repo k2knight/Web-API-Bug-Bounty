@@ -177,3 +177,6 @@ We need to add the below script to achieve this.
 ```
 
 ![[Pasted image 20240527204740.png]]
+
+
+![](Pasted%20image%2020240630213934.png)

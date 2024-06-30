@@ -4,18 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "7bd7b74001c6c3ff",
+        "id": "dfa5ab744c1def1c",
         "type": "tabs",
         "children": [
           {
-            "id": "0a430071e1e0271c",
+            "id": "d35fc646a0505e75",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f04d5b74a285bfe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/JS Files.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f303043dbe3a3754",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Data Breach Search Engines.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59f7a00637733c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/SSRF.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "crlf",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/SSRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web/SSRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web/SSRF.md"
+              }
             }
           }
         ],
@@ -126,8 +171,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -140,34 +184,40 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "0a430071e1e0271c",
+  "active": "59f7a00637733c37",
   "lastOpenFiles": [
+    "Bug Bounty/Data Breach Search Engines.md",
+    "Bug Bounty/One liners.md",
+    "Attachments/Pasted image 20240630225845.png",
+    "Bug Bounty/JS Files.md",
+    "Web/XSS/XSS.md",
+    "Web/Inection/CRLF Injection.md",
+    "Reports & Blogs/To Read.md",
+    "Attachments/Pasted image 20240630222052.png",
+    "Web/Inection/SQL Tools.md",
+    "Web/Inection/SQL.md",
+    "Web/Inection/SQLi Payloads.md",
+    "Bug Bounty/Checklist/Sub Domain Enum.md",
+    "Attachments/Pasted image 20240630220230.png",
+    "Web/XSS/Others.md",
+    "Web/XSS/Exploitation.md",
+    "Web/XSS/Blind.md",
+    "Web/XSS/XSS Tools.md",
+    "Bug Bounty/Google Dorks.md",
     "Web/CSRF.md",
+    "Attachments/Pasted image 20240630213934.png",
+    "Bug Bounty/Rate limit Bypass.md",
+    "Attachments/Pasted image 20240630213725.png",
+    "Web/Fuzzing.md",
+    "Bug Bounty/Checklist/Recon.md",
+    "Web/Inection/Blind SQL.md",
+    "OSINT/Web Recon.md",
+    "OSINT",
     "Web/File Upload.md",
     "Web/Session Based.md",
     "Web/Parameter Pollution.md",
     "Web/OAuth.md",
     "Web/Long length DoS.md",
-    "Web/JWT.md",
-    "Web/Fuzzing.md",
-    "Web/EXIF Not Stripped.md",
-    "Bug Bounty/DNS Zone Transfer.md",
-    "Web/Untitled.md",
-    "Bug Bounty/Ticket Email.md",
-    "Web/Cache Poisoning.md",
-    "Web/Git.md",
-    "Web/Clickjacking.md",
-    "Web/Cookie Terminology.md",
-    "Web/Cryptography.md",
-    "Web/App Server Vulns.md",
-    "Web/XSS/Blind.md",
-    "Web/SSRF.md",
-    "Bug Bounty/One liners.md",
-    "Web/Web Cache Poisoning.md",
-    "Web/Origin IP - WAF bypass.md",
-    "Web/Inection/Injection.md",
-    "Web/Open Redirect.md",
-    "Web/Captcha Bypass.md",
     "Attachments/Pasted image 20240624151959.png",
     "Web/Inection",
     "Attachments/Pasted image 20240624110303.png",
@@ -177,9 +227,7 @@
     "Reports & Blogs",
     "Web/XSS",
     "Attachments/Pasted image 20240527204740.png",
-    "Attachments/Pasted image 20240527191733.png",
     "Attachments",
-    "Attachments/Pasted image 20240527171129.png",
     "Bug Bounty",
     "Others",
     "Web"

@@ -22,3 +22,13 @@ https://github.com/Findomain/Findomain
 - [C99](https://api.c99.nl/) `**`
 - [Archive.org](https://archive.org/)
 - [CTSearch](https://ui.ctsearch.entrust.com/ui/ctsearchui)
+
+
+```
+site:*.site.com -www
+site:*.*.site.com -www
+site:*.*.*.site.com -www
+```
+
+
+![](Pasted%20image%2020240630220230.png)

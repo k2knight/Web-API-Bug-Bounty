@@ -19,6 +19,8 @@
 |  | https://censys.io/ | Subdoamin |  |
 |  | https://www.netcraft.com/ |  |  |
 | `aquatone` |  | screenshots websites |  |
+| creepyCrawler | https://github.com/chm0dx/creepyCrawler |  extracts recon info from any URL |  |
+|  |  |  |  |
 
 `cat *.txt | grep -F ".dell.com" | awk -F'-- ' '{print $2}'| tr ' ' '\n' | tr '[' ' ‘| sed 's/ //’| sed 's/\]//’| grep -F ".dell.com“ | sort -u`
 

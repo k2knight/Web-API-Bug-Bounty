@@ -4,6 +4,8 @@ payload : `www.attacker.com/?`    <-- https://hackerone.com/reports/2442626
 
 Use [[Certbot]] to make our http server to https to allow target website to ping our attacker hosted website.
 
+SSRF via SVG file upload
+
 Spider a domain in burpsuite.
 Search for `url=` `request=` `load=` `redirect=` `fetch=` `page=` `site=` `open=` `entry=` `target=` `Destination=` `Uri=` `file=`
 
