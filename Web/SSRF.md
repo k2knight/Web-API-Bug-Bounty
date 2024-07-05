@@ -6,7 +6,7 @@ Use [[Certbot]] to make our http server to https to allow target website to ping
 
 SSRF via SVG file upload
 
-Spider a domain in burpsuite.
+Spider a domain in burpsuite. Payloads are at down
 Search for `url=` `request=` `load=` `redirect=` `fetch=` `page=` `site=` `open=` `entry=` `target=` `Destination=` `Uri=` `file=`
 
 ### Blind SSRF
@@ -70,3 +70,32 @@ https://github.com/neex/ffmpeg-avi-m3u-xbin
 
 `./gen_xbin_avi.py file://<filename> file_read.avi`
 
+## Payloads
+
+```
+?dest={target} 
+?redirect={target} 
+?uri={target} 
+?path={target} 
+?continue={target} 
+?url={target} 
+?window={target} 
+?next={target} 
+?data={target} 
+?reference={target} 
+?site={target}
+?html={target} 
+?val={target} 
+?validate={target} 
+?domain={target} 
+?callback={target} 
+?return={target} 
+?page={target} 
+?feed={target} 
+?host={target} 
+?port={target} 
+?to={target} 
+?out={target} 
+?view={target} 
+?dir={target}
+```
