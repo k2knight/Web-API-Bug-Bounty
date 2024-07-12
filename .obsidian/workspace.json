@@ -144,8 +144,7 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "cmdr:Commander: Git Commit & Push": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "fcac5f2ba8b11d99",
