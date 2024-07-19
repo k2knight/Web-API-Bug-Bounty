@@ -13,3 +13,4 @@ katana -u vulnweb.com -d 5 -ps -pss waybackarchive,commoncrawl,alienvault -f qur
 ```
 
 
+https://github.com/Josekutty-K/nuclei-templates

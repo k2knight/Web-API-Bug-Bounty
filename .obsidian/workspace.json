@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c970a18b0da30c02",
+        "id": "d8a2d95a06e7ba16",
         "type": "tabs",
         "children": [
           {
-            "id": "2385424cb47c2d83",
+            "id": "ae49c0159430c766",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Web Cache Poisoning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a42fc0a8ac410ea6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/SQL Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcc91ddf5ab8fd39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/403 Bypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c91460ca22abc17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "ToolsForAllBugs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "ToolsForAllBugs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md"
+                "file": "ToolsForAllBugs.md"
               }
             }
           }
@@ -185,12 +144,13 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "6c91460ca22abc17",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
-    "Bug Bounty/403 Bypass.md",
-    "Web/Inection/SQL Tools.md",
-    "Web/Inection/SQLi Payloads.md",
     "Web/Web Cache Poisoning.md",
+    "Web/Inection/SQL Tools.md",
+    "Bug Bounty/403 Bypass.md",
+    "Web/Inection/SQLi Payloads.md",
+    "Bug Bounty/Automation.md",
     "Web/Missing HSTS.md",
     "Bug Bounty/Checklist/Recon.md",
     "Bug Bounty/Forgot Password.md",
@@ -215,7 +175,6 @@
     "Attachments/Pasted image 20240630222052.png",
     "Web/Inection/SQL.md",
     "Attachments/Pasted image 20240630220230.png",
-    "Web/XSS/Others.md",
     "Attachments/Pasted image 20240630213934.png",
     "Attachments/Pasted image 20240630213725.png",
     "OSINT",

