@@ -1,4 +1,4 @@
-# SQL Payloads
+# SQLi Payloads
 
 
 ```

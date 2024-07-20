@@ -11,11 +11,52 @@
             "id": "ae49c0159430c766",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web/Inection/SQL Tools.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f26388e81b1591a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Long length DoS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3319dd4ecffd4f29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Inection/SSTI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a622dedbe48783d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Inection/SQLi Payloads.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -44,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ToolsForAllBugs.md",
+                "file": "Web/Inection/SQLi Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ToolsForAllBugs.md",
+                "file": "Web/Inection/SQLi Payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ToolsForAllBugs.md"
+                "file": "Web/Inection/SQLi Payloads.md"
               }
             }
           }
@@ -144,12 +185,14 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "fcac5f2ba8b11d99",
+  "active": "7a622dedbe48783d",
   "lastOpenFiles": [
-    "Web/Web Cache Poisoning.md",
+    "Web/Inection/SSTI.md",
+    "Web/Long length DoS.md",
     "Web/Inection/SQL Tools.md",
-    "Bug Bounty/403 Bypass.md",
     "Web/Inection/SQLi Payloads.md",
+    "Web/Web Cache Poisoning.md",
+    "Bug Bounty/403 Bypass.md",
     "Bug Bounty/Automation.md",
     "Web/Missing HSTS.md",
     "Bug Bounty/Checklist/Recon.md",
@@ -171,9 +214,7 @@
     "Bug Bounty/One liners.md",
     "Attachments/Pasted image 20240630225845.png",
     "Web/Inection/CRLF Injection.md",
-    "Reports & Blogs/To Read.md",
     "Attachments/Pasted image 20240630222052.png",
-    "Web/Inection/SQL.md",
     "Attachments/Pasted image 20240630220230.png",
     "Attachments/Pasted image 20240630213934.png",
     "Attachments/Pasted image 20240630213725.png",
