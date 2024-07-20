@@ -4,43 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "88083f600488afb5",
+        "id": "6f6064a54882e52e",
         "type": "tabs",
         "children": [
           {
-            "id": "5c814acdbe14f9b6",
+            "id": "116eaad70db7acd8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6999bab8a1fa033a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/SQL Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f336b7628577f49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/Blind SQL.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -109,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Web/Inection/SQLi Payloads.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -172,9 +140,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "5c814acdbe14f9b6",
+  "active": "116eaad70db7acd8",
   "lastOpenFiles": [
     "Web/Inection/Blind SQL.md",
+    "Web/Inection/Command Injection.md",
+    "Web/Inection/CRLF Injection.md",
+    "Web/Inection/Injection.md",
     "Web/Inection/SQL Tools.md",
     "Web/Inection/SQLi Payloads.md",
     "Web/Long length DoS.md",
@@ -197,9 +168,6 @@
     "Bug Bounty/Recon.md",
     "Web/Cookie Terminology.md",
     "ToolsForAllBugs.md",
-    "Web/XSS/WAF Bypass Payloads.md",
-    "BB Begin Commands.md",
-    "Bug Bounty/One liners.md",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
     "Attachments/Pasted image 20240630220230.png",
