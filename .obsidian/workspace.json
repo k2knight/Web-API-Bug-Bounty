@@ -30,9 +30,81 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "76dfa19deee92dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Open Redirect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7e49c195cc2eee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/Others.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fa6b00c6d89046d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/Payloads_from_YT.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eeaa016ee353f22b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/XSS/XSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "717964f7c06da21e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/Fuzzing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a325b89eb25deef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/403 Bypass.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -61,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "host header injection",
+                "query": "fuzz",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 327.5
   },
   "right": {
     "id": "412a1d84e48ebf6a",
@@ -98,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "Web/Inection/Host Header Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "Web/Inection/Host Header Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md"
+                "file": "Web/Inection/Host Header Injection.md"
               }
             }
           }
@@ -161,8 +233,17 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "780a726b8797e48d",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
+    "Web/Inection/LFI_Payloads.txt",
+    "Bug Bounty/403 Bypass.md",
+    "Bug Bounty/Fuzzing.md",
+    "Web/XSS/XSS.md",
+    "Web/XSS/WAF Bypass Payloads.md",
+    "Web/XSS/Payloads_from_YT.md",
+    "Web/XSS/Others.md",
+    "Bug Bounty/Open Redirect.md",
+    "Web/Inection/SQLi Payloads.md",
     "Web/Inection/Host Header Injection.md",
     "ToolsForAllBugs.md",
     "Web/Inection/Blind SQL.md",
@@ -170,25 +251,16 @@
     "Web/Inection/CRLF Injection.md",
     "Web/Inection/Injection.md",
     "Web/Inection/SQL Tools.md",
-    "Web/Inection/SQLi Payloads.md",
     "Web/Long length DoS.md",
     "Web/Inection/SSTI.md",
     "Web/Web Cache Poisoning.md",
-    "Bug Bounty/403 Bypass.md",
     "Bug Bounty/Automation.md",
     "Web/Missing HSTS.md",
     "Bug Bounty/Checklist/Recon.md",
     "Bug Bounty/Forgot Password.md",
-    "Web/XSS/Payloads_from_YT.md",
     "Web/CORS.md",
     "Web/Clickjacking.md",
     "Web/SSRF.md",
-    "Web/CSRF.md",
-    "Web/XSS/XSS.md",
-    "Bug Bounty/JS Files.md",
-    "Bug Bounty/Data Breach Search Engines.md",
-    "Bug Bounty/Checklist/Sub Domain Enum.md",
-    "Bug Bounty/Recon.md",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
     "Attachments/Pasted image 20240630220230.png",

