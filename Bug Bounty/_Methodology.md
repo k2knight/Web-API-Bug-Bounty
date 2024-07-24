@@ -99,7 +99,6 @@ cat allurls.txt | grep -E "\.txt|\.log|\.cache|\.secret|\.db|\.backup|\.yml|\.js
 ```
 
 SSRF from Wayback
-
 ```
 cat alive.txt | gauplus -subs -b png,jpg,jpeg,woff,gif,svg,swf -o ssrfurls.txt
 cat allurls | gf redirect | ssrfurls.txt
