@@ -49,7 +49,7 @@ cat alivesubs.txt | aquatone
 
 Nuclei
 ```
-nuclei -list alivesubs.txt | nuclei_result.txt
+nuclei -list alivesubs.txt | tee nuclei_result.txt
 ```
 
 Nmap
