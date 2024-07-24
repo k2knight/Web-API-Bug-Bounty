@@ -13,11 +13,11 @@ crtsh -q target.com -o | tee crtsh.txt
 ```
 
 ```
-findomain -t target.com -o 
+findomain -t target.com -o | tee finddomain.txt
 ```
 
 ```
-subfinder -d target.com
+subfinder -d target.com | tee subfinder.txt
 ```
 
 ```
@@ -36,10 +36,13 @@ alive
 cat subdomains.txt | httpx | tee -a alivesubs.txt
 ```
 
+```
+paste -sd ',' alivesubs.txt > urls_comma_separated.txt
+```
 #### Screenshotting
 
 ```
-cat subs.txt | aquatone
+cat alivesubs.txt | aquatone
 ```
 
 ## Auto
