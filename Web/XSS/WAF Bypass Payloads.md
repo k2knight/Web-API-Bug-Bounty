@@ -25,3 +25,8 @@ foo%27%22%3E%3CImg%0ASrc%0A=OnXSS%0AOnError%0A=alert(1)%3E
 <h1%20oNLY%20OnMouseover=prompt(document.cookie)>
 ```
 
+https://d3adend.org/xss/ghettoBypass
+
+https://github.com/0xInfection/Awesome-WAF
+
+https://github.com/masatokinugawa/filterbypass/wiki/Browser's-XSS-Filter-Bypass-Cheat-Sheet

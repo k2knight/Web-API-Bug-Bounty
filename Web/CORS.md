@@ -29,3 +29,7 @@ add `Origin` header with attacker site in request
  </html>
 ```
 
+## Bypass 
+
+theirdomain.com --> anythingheretheirdomain.com
+add Origin: theirdomain.com by changing match and replace 

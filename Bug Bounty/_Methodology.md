@@ -21,6 +21,10 @@ subfinder -d target.com | tee subfinder.txt
 ```
 
 ```
+./lazyrecon.sh -d target.com
+```
+
+```
 github-subdomains -d target.com
 ```
 
@@ -117,6 +121,11 @@ cat ssrfurls.txt | grep "="  | /root/go/bin/qsreplace http://www.(burp-colabratt
 https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/
 
 https://mr-dorker.onrender.com/
+
+```
+login, register, upload, contact, feedback, join, signup, profile, user, comment, api,
+developer, affiliate, careers, upload, mobile, upgrade, passwordreset.
+```
 
 ## Testing
 

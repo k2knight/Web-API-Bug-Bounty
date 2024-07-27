@@ -1,6 +1,6 @@
 # OAuth
 
-
+https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2
 ### Authentication bypass via OAuth implicit flow
 
 Observer the entire flow of the auth process. 
