@@ -4,83 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "58f37e3d1a4ed435",
+        "id": "93e0dec010fb0c67",
         "type": "tabs",
         "children": [
           {
-            "id": "3e0ee3c69e208727",
+            "id": "04f5ecf646dbc265",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Account Take Over.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66c3d48384d92806",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/XSS Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a87820fda7ace1ae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/_Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d7ad04e866b77437",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API Pentesting/Tools.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a622487f08c0d7f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API Pentesting/OWASP Top 10 API.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f84145eaf0873c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Reports & Blogs/Writeup's.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API Pentesting/OWASP Top 10 API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API Pentesting/OWASP Top 10 API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "API Pentesting/OWASP Top 10 API.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -209,11 +140,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "a622487f08c0d7f6",
+  "active": "04f5ecf646dbc265",
   "lastOpenFiles": [
+    "API Pentesting/OWASP Top 10 API.md",
+    "Attachments/c4d6627-72c6-cba4-cded-3e8e64462f_27.jpg",
     "API Pentesting/Tools.md",
     "Bug Bounty/_Methodology.md",
-    "API Pentesting/OWASP Top 10 API.md",
     "API Pentesting/Mass Assignment.md",
     "API Pentesting/Fuzzing.md",
     "API Pentesting/Checklist.md",
@@ -237,7 +169,6 @@
     "Web/CSRF.md",
     "Web/XSS/WAF Bypass Payloads.md",
     "Web/Tools.md",
-    "Bug Bounty/WAF Bypass.md",
     "Web/Inection/LFI_Payloads.txt",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
@@ -253,7 +184,6 @@
     "Bug Bounty/Checklist",
     "Reports & Blogs",
     "Web/XSS",
-    "Attachments/Pasted image 20240527204740.png",
     "Attachments",
     "Bug Bounty",
     "Others"
