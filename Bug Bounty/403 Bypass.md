@@ -37,6 +37,10 @@ url/?f=L2V0Yy9wYXNzd2Q= ==> 200
 
 /%3f/ ==> 200 Ok
 
+---
+/system --> 403   (fuzz on /system)
+
+/system/logs --> 200
 
 ---
 

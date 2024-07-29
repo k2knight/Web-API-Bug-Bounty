@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "81035caa45fe5173",
+        "id": "fd9f89dca2ec3e6e",
         "type": "tabs",
         "children": [
           {
-            "id": "040abc66a78da9cc",
+            "id": "c4f4b5b0865828fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Origin IP - WAF bypass.md",
+                "file": "Web/SSRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "589e582aa68aff2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug Bounty/_Methodology.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Origin IP - WAF bypass.md",
+                "file": "Bug Bounty/_Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Origin IP - WAF bypass.md",
+                "file": "Bug Bounty/_Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Origin IP - WAF bypass.md"
+                "file": "Bug Bounty/_Methodology.md"
               }
             }
           }
@@ -148,10 +161,18 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "040abc66a78da9cc",
+  "active": "589e582aa68aff2f",
   "lastOpenFiles": [
-    "Web/Inection/SQLi Methodology.md",
+    "Web/SSRF.md",
+    "Bug Bounty/_Methodology.md",
+    "Web/Inection/LFI.md",
+    "Web/Inection/RFI.md",
+    "Web/Inection/Injection.md",
+    "Web/Inection/LFI_Payloads.txt",
+    "Bug Bounty/403 Bypass.md",
+    "Bug Bounty/Sub Domain Enumeration.md",
     "Web/Origin IP - WAF bypass.md",
+    "Web/Inection/SQLi Methodology.md",
     "Web/Inection/SQLi Payloads.md",
     "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Web/Inection/SQL Tools.md",
@@ -161,7 +182,6 @@
     "API Pentesting/OWASP Top 10 API.md",
     "Attachments/c4d6627-72c6-cba4-cded-3e8e64462f_27.jpg",
     "API Pentesting/Tools.md",
-    "Bug Bounty/_Methodology.md",
     "API Pentesting/Mass Assignment.md",
     "API Pentesting/Fuzzing.md",
     "API Pentesting/Checklist.md",
@@ -174,13 +194,6 @@
     "Reports & Blogs/Writeup's.md",
     "Bug Bounty/Open Redirect.md",
     "Bug Bounty/Account Take Over.md",
-    "Web/CORS.md",
-    "Web/Cookie Terminology.md",
-    "Web/BAC-IDOR.md",
-    "Bug Bounty/403 Bypass.md",
-    "Web/File Upload.md",
-    "Web/Open Redirect.md",
-    "Web/Inection/LFI_Payloads.txt",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
     "Attachments/Pasted image 20240630220230.png",

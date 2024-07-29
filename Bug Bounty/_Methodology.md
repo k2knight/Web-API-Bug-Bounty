@@ -69,14 +69,20 @@ while IFS= read -r url; do
 done < alivesubs.txt
 ```
 
-## Wayback
+## Crawling old data
+### Wayback
+
+(incomplete)
+```
+waymore -i pure_alive.txt -mode U -oU waymore.txt
+```
 
 ```
 cat alivesubs.txt | waybackurls | tee -a wayurls.txt
 ```
 
 ```
-cat wayurls.txt | httx | tee -a wayback_alive_urls.txt
+cat wayurls.txt | httpx | tee -a wayback_alive_urls.txt
 ```
 
 from here search for admin, config, ini using grep
@@ -114,6 +120,13 @@ cat allurls | grep "=" | ssrfurls.txt
 
 ```
 cat ssrfurls.txt | grep "="  | /root/go/bin/qsreplace http://www.(burp-colabrattor) | anew ssrf.txt
+```
+
+### katana
+it is for active crawling
+
+```
+cat live_domains.txt | katana -f qurl -silent -kf all -jc -aff -d 5 -o katana-param.txt
 ```
 
 ### Dorking
