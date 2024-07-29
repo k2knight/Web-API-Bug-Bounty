@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d11140a9300fab4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Inection/SQLi Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "040abc66a78da9cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "Web/Origin IP - WAF bypass.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "Web/Origin IP - WAF bypass.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md",
+                "file": "Web/Origin IP - WAF bypass.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Inection/SQLi Payloads.md"
+                "file": "Web/Origin IP - WAF bypass.md"
               }
             }
           }
@@ -163,9 +150,10 @@
   },
   "active": "040abc66a78da9cc",
   "lastOpenFiles": [
-    "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
-    "Web/Inection/SQLi Payloads.md",
     "Web/Inection/SQLi Methodology.md",
+    "Web/Origin IP - WAF bypass.md",
+    "Web/Inection/SQLi Payloads.md",
+    "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Web/Inection/SQL Tools.md",
     "Testing Folder/linked file.md",
     "Testing Folder/New file.md",

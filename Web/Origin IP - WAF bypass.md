@@ -21,6 +21,8 @@ censys
 
 securitytrails 
 
+https://viewdns.info/iphistory/
+
 ## Methods
 
 ```
@@ -30,4 +32,6 @@ securitytrails
   
 prips [93.184.216.0/24](http://93.184.216.0/24) | hakoriginfinder -h example[.]com
 ```
+
+Using SSRF we can get the Origin IP typically bypass the SSL/TLS along with WAF.
 
