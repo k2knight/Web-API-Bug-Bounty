@@ -42,7 +42,10 @@ Blind SQL:
 ' or sleep(15)#
 ' union select sleep(15),null#
 ```
-
+  
+```
+1' waitfor delay  '0:0:30' - 
+```
 Code Execution : xp_cmdshell in Microsoft SQL need to be enable to work this.
 
 ```

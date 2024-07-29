@@ -4,18 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "93e0dec010fb0c67",
+        "id": "81035caa45fe5173",
         "type": "tabs",
         "children": [
           {
-            "id": "04f5ecf646dbc265",
+            "id": "d11140a9300fab4f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Web/Inection/SQLi Methodology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "040abc66a78da9cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Inection/SQLi Payloads.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Web/Inection/SQLi Payloads.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Web/Inection/SQLi Payloads.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,10 +137,13 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Web/Inection/SQLi Payloads.md"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -139,8 +161,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "892bd86bc6fb65ee",
+  "active": "040abc66a78da9cc",
   "lastOpenFiles": [
+    "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
+    "Web/Inection/SQLi Payloads.md",
+    "Web/Inection/SQLi Methodology.md",
+    "Web/Inection/SQL Tools.md",
     "Testing Folder/linked file.md",
     "Testing Folder/New file.md",
     "Testing Folder",
@@ -160,16 +186,12 @@
     "Reports & Blogs/Writeup's.md",
     "Bug Bounty/Open Redirect.md",
     "Bug Bounty/Account Take Over.md",
-    "Web/Inection/SQLi Payloads.md",
     "Web/CORS.md",
     "Web/Cookie Terminology.md",
     "Web/BAC-IDOR.md",
     "Bug Bounty/403 Bypass.md",
     "Web/File Upload.md",
     "Web/Open Redirect.md",
-    "Web/OAuth.md",
-    "Web/CSRF.md",
-    "Web/XSS/WAF Bypass Payloads.md",
     "Web/Inection/LFI_Payloads.txt",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
@@ -185,7 +207,6 @@
     "Bug Bounty/Checklist",
     "Reports & Blogs",
     "Web/XSS",
-    "Attachments",
-    "Bug Bounty"
+    "Attachments"
   ]
 }
