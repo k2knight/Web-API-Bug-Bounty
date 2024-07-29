@@ -11,7 +11,7 @@
             "id": "04f5ecf646dbc265",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -121,8 +121,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -140,8 +139,11 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "04f5ecf646dbc265",
+  "active": "892bd86bc6fb65ee",
   "lastOpenFiles": [
+    "Testing Folder/linked file.md",
+    "Testing Folder/New file.md",
+    "Testing Folder",
     "API Pentesting/OWASP Top 10 API.md",
     "Attachments/c4d6627-72c6-cba4-cded-3e8e64462f_27.jpg",
     "API Pentesting/Tools.md",
@@ -168,7 +170,6 @@
     "Web/OAuth.md",
     "Web/CSRF.md",
     "Web/XSS/WAF Bypass Payloads.md",
-    "Web/Tools.md",
     "Web/Inection/LFI_Payloads.txt",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
@@ -185,7 +186,6 @@
     "Reports & Blogs",
     "Web/XSS",
     "Attachments",
-    "Bug Bounty",
-    "Others"
+    "Bug Bounty"
   ]
 }
