@@ -1,5 +1,6 @@
 # Open Redirect
 
+Chain Open Redirect with [SSRF](Web/SSRF.md) and [CRLF Injection](CRLF%20Injection.md)
 ![[Pasted image 20240527191733.png]]
 
 # Open Redirect

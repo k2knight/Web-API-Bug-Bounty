@@ -13,3 +13,7 @@ Line Feed  - Marks the Start of a new line
 `%0d%0a` - encoded `\r\n`
 ![](Pasted%20image%2020240624110303.png)
 
+### SSRF to CRLF:
+```
+example.com/ssrf.php?url=/test%0d%0aHost:%20attacker.com
+```

