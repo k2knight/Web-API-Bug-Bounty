@@ -37,3 +37,7 @@ cat magicbytes shell.php > shell_magicbytes.php
 - XSS via file upload's file name. The file name is our XSS payload.
 - file name with only extension without filename `.html` with content type other
 - file name without file extension and only with name and with content type other
+- Try SQL Injection in file upload `filename="file.php*" Content-type=text/html`
+- Try Path traversal in file upload `filename="../../../file.php*" Content-type=text/html`
+- Put a `?` at the end of the file name when it is going to upload in an AWS S3 bucket. that will allows us `filename.png-51434653.png` to `filename.png`. in AWS.
+- In place of an file upload an URL, by changing source code in inspect elements to URL type --> SSRF
