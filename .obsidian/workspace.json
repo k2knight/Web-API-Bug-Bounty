@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fd9f89dca2ec3e6e",
+        "id": "459c1d21a8625124",
         "type": "tabs",
         "children": [
           {
-            "id": "5131e214f8636aa2",
+            "id": "ea647373860111d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Web/Parameter Pollution.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Web/Parameter Pollution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/SSRF.md",
+                "file": "Web/Parameter Pollution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/SSRF.md"
+                "file": "Web/Parameter Pollution.md"
               }
             }
           }
@@ -147,13 +147,28 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "5131e214f8636aa2",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
-    "Bug Bounty/Path Traversal.md",
-    "Web/File Upload.md",
-    "Web/RCE.md",
+    "Web/Parameter Pollution.md",
+    "Web/Origin IP - WAF bypass.md",
     "Web/Open Redirect.md",
+    "Web/OAuth.md",
+    "Web/Missing HSTS.md",
+    "Web/Long length DoS.md",
+    "Web/JWT.md",
+    "Web/Git.md",
+    "Web/Fuzzing.md",
+    "Web/File Upload.md",
+    "Web/CSRF.md",
+    "Web/Clickjacking.md",
+    "Web/Captcha Bypass.md",
+    "Web/Cache Poisoning.md",
+    "Web/BAC-IDOR.md",
+    "Web/XSS/XSS.md",
+    "Web/Inection/SQLi Payloads.md",
     "Web/SSRF.md",
+    "Bug Bounty/Path Traversal.md",
+    "Web/RCE.md",
     "Bug Bounty/_Methodology.md",
     "Web/Inection/CRLF Injection.md",
     "Web/Inection/LFI.md",
@@ -161,24 +176,9 @@
     "Web/Inection/Injection.md",
     "Web/Inection/LFI_Payloads.txt",
     "Bug Bounty/403 Bypass.md",
-    "Bug Bounty/Sub Domain Enumeration.md",
-    "Web/Origin IP - WAF bypass.md",
-    "Web/Inection/SQLi Methodology.md",
-    "Web/Inection/SQLi Payloads.md",
     "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
-    "Web/Inection/SQL Tools.md",
-    "Testing Folder/linked file.md",
-    "Testing Folder/New file.md",
     "Testing Folder",
-    "API Pentesting/OWASP Top 10 API.md",
     "Attachments/c4d6627-72c6-cba4-cded-3e8e64462f_27.jpg",
-    "API Pentesting/Tools.md",
-    "API Pentesting/Mass Assignment.md",
-    "API Pentesting/Fuzzing.md",
-    "API Pentesting/Checklist.md",
-    "API Pentesting/BOLA.md",
-    "API Pentesting/BFLA.md",
-    "API Pentesting/Authentication.md",
     "API Pentesting",
     "Attachments/Pasted image 20240630225845.png",
     "Attachments/Pasted image 20240630222052.png",
