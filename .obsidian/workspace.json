@@ -4,95 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "459c1d21a8625124",
+        "id": "ad16517b4bfcf872",
         "type": "tabs",
         "children": [
           {
-            "id": "ea647373860111d5",
+            "id": "0e7f4da966a0ca1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Parameter Pollution.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aacba3ff68d0cd71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug Bounty/Data Breach Search Engines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a8fef4a5d2e0d24b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/XSS/Blind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ead24af53350c075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Fuzzing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c2d94f6fb395e446",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Session Based.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b41c3063801099b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Origin IP - WAF bypass.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "af2e1bada14b9345",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Open Redirect.md",
+                "file": "Others/OSINT/Web Recon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -158,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Open Redirect.md",
+                "file": "Others/OSINT/Web Recon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Open Redirect.md",
+                "file": "Others/OSINT/Web Recon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Open Redirect.md"
+                "file": "Others/OSINT/Web Recon.md"
               }
             }
           }
@@ -220,36 +147,36 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "af2e1bada14b9345",
+  "active": "0e7f4da966a0ca1d",
   "lastOpenFiles": [
-    "Web/Origin IP - WAF bypass.md",
-    "Web/Session Based.md",
-    "Web/Fuzzing.md",
-    "Web/XSS/Blind.md",
+    "Web Pentesting/Open Redirect.md",
+    "Web Pentesting/Origin IP - WAF bypass.md",
+    "Web Pentesting/Session Based.md",
+    "Web Pentesting/Fuzzing.md",
+    "Web Pentesting/XSS/Blind.md",
     "Bug Bounty/Data Breach Search Engines.md",
-    "Web/Parameter Pollution.md",
-    "Web/Open Redirect.md",
-    "Web/OAuth.md",
-    "Web/Missing HSTS.md",
-    "Web/Long length DoS.md",
-    "Web/JWT.md",
-    "Web/Git.md",
-    "Web/File Upload.md",
-    "Web/CSRF.md",
-    "Web/Clickjacking.md",
-    "Web/Captcha Bypass.md",
-    "Web/Cache Poisoning.md",
-    "Web/BAC-IDOR.md",
-    "Web/XSS/XSS.md",
-    "Web/Inection/SQLi Payloads.md",
-    "Web/SSRF.md",
+    "Web Pentesting/Parameter Pollution.md",
+    "Web Pentesting/OAuth.md",
+    "Web Pentesting/Missing HSTS.md",
+    "Web Pentesting/Long length DoS.md",
+    "Web Pentesting/JWT.md",
+    "Web Pentesting/Git.md",
+    "Web Pentesting/File Upload.md",
+    "Web Pentesting/CSRF.md",
+    "Web Pentesting/Clickjacking.md",
+    "Web Pentesting/Captcha Bypass.md",
+    "Web Pentesting/Cache Poisoning.md",
+    "Web Pentesting/BAC-IDOR.md",
+    "Web Pentesting/XSS/XSS.md",
+    "Web Pentesting/Inection/SQLi Payloads.md",
+    "Web Pentesting/SSRF.md",
     "Bug Bounty/Path Traversal.md",
-    "Web/RCE.md",
+    "Web Pentesting/RCE.md",
     "Bug Bounty/_Methodology.md",
-    "Web/Inection/CRLF Injection.md",
-    "Web/Inection/LFI.md",
-    "Web/Inection/LFI_Payloads.txt",
-    "Web/Inection/SQLMAP Advanced Cheatsheet.pdf",
+    "Web Pentesting/Inection/CRLF Injection.md",
+    "Web Pentesting/Inection/LFI.md",
+    "Web Pentesting/Inection/LFI_Payloads.txt",
+    "Web Pentesting/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Testing Folder",
     "Attachments/c4d6627-72c6-cba4-cded-3e8e64462f_27.jpg",
     "API Pentesting",
@@ -258,15 +185,15 @@
     "Attachments/Pasted image 20240630220230.png",
     "Attachments/Pasted image 20240630213934.png",
     "Attachments/Pasted image 20240630213725.png",
-    "OSINT",
+    "Others/OSINT",
     "Attachments/Pasted image 20240624151959.png",
-    "Web/Inection",
+    "Web Pentesting/Inection",
     "Attachments/Pasted image 20240624110303.png",
     "Attachments/Pasted image 20240622120719.png",
     "Attachments/Pasted image 20240618230537.png",
     "Bug Bounty/Checklist",
     "Reports & Blogs",
-    "Web/XSS",
+    "Web Pentesting/XSS",
     "Attachments"
   ]
 }
