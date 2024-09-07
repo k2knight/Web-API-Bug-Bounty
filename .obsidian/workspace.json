@@ -147,8 +147,9 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "0e7f4da966a0ca1d",
+  "active": "fcac5f2ba8b11d99",
   "lastOpenFiles": [
+    "Web Pentesting/Inection/SQLi Commands.md",
     "Web Pentesting/BAC-IDOR.md",
     "Others/OSINT/Web Recon.md",
     "Web Pentesting/Open Redirect.md",
@@ -174,7 +175,6 @@
     "Bug Bounty/Path Traversal.md",
     "Web Pentesting/RCE.md",
     "Bug Bounty/_Methodology.md",
-    "Web Pentesting/Inection/CRLF Injection.md",
     "Web Pentesting/Inection/LFI_Payloads.txt",
     "Web Pentesting/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Testing Folder",
