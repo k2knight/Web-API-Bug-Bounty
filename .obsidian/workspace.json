@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pentesting/Inection/SQLi Commands.md",
+                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pentesting/Inection/SQLi Commands.md",
+                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pentesting/Inection/SQLi Commands.md",
+                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pentesting/Inection/SQLi Commands.md"
+                "file": "Others/Intercepting CLI Traffic in Burpsuite.md"
               }
             }
           }
@@ -162,8 +162,9 @@
   },
   "active": "81f858fce7a7413c",
   "lastOpenFiles": [
-    "Web Pentesting/JWT.md",
     "Web Pentesting/Inection/SQLi Commands.md",
+    "Others/Intercepting CLI Traffic in Burpsuite.md",
+    "Web Pentesting/JWT.md",
     "Web Pentesting/BAC-IDOR.md",
     "Others/OSINT/Web Recon.md",
     "Web Pentesting/Open Redirect.md",
@@ -187,7 +188,6 @@
     "Web Pentesting/SSRF.md",
     "Bug Bounty/Path Traversal.md",
     "Web Pentesting/RCE.md",
-    "Bug Bounty/_Methodology.md",
     "Web Pentesting/Inection/LFI_Payloads.txt",
     "Web Pentesting/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Testing Folder",
