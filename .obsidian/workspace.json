@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "81f858fce7a7413c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
+                "file": "Web Pentesting/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Others/Intercepting CLI Traffic in Burpsuite.md",
+                "file": "Web Pentesting/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Others/Intercepting CLI Traffic in Burpsuite.md"
+                "file": "Web Pentesting/JWT.md"
               }
             }
           }
@@ -160,10 +147,10 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "81f858fce7a7413c",
+  "active": "0e7f4da966a0ca1d",
   "lastOpenFiles": [
-    "Web Pentesting/Inection/SQLi Commands.md",
     "Others/Intercepting CLI Traffic in Burpsuite.md",
+    "Web Pentesting/Inection/SQLi Commands.md",
     "Web Pentesting/JWT.md",
     "Web Pentesting/BAC-IDOR.md",
     "Others/OSINT/Web Recon.md",
