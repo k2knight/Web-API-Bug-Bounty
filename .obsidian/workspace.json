@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pentesting/BAC-IDOR.md",
+                "file": "Web Pentesting/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pentesting/BAC-IDOR.md",
+                "file": "Web Pentesting/JWT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pentesting/BAC-IDOR.md",
+                "file": "Web Pentesting/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pentesting/BAC-IDOR.md"
+                "file": "Web Pentesting/JWT.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "0e7f4da966a0ca1d",
   "lastOpenFiles": [
+    "Web Pentesting/BAC-IDOR.md",
     "Others/OSINT/Web Recon.md",
     "Web Pentesting/Open Redirect.md",
     "Web Pentesting/Origin IP - WAF bypass.md",
@@ -167,7 +168,6 @@
     "Web Pentesting/Clickjacking.md",
     "Web Pentesting/Captcha Bypass.md",
     "Web Pentesting/Cache Poisoning.md",
-    "Web Pentesting/BAC-IDOR.md",
     "Web Pentesting/XSS/XSS.md",
     "Web Pentesting/Inection/SQLi Payloads.md",
     "Web Pentesting/SSRF.md",
