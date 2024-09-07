@@ -1,16 +1,5 @@
 # Intercepting CLI Traffic in Burpsuite
 
-```
-subl ~/.zshrc
-```
-
-add these in the zshrc file
-
-```
-export http_proxy=localhost:8080
-export https_proxy=localhost:8080
-```
-
 Installing Burp Certificate in kali as root (SYSTEM)
 
 ```
@@ -40,3 +29,16 @@ Using proxy chains
 proxychains curl https://ifconfig.io
 ```
 
+Note: For some reasons proxychains is not working for all tools.
+We need to use `http_proxy=localhost:8080 https_proxy=localhost:8080` before the command to intercept the traffic in burpsuite.
+
+Alternative to this is to set the `http_proxy` for every **zshrc** shell. for that i adding these 2 line in `subl ~/.zshrc` --> `source ~/.zshrc`
+
+```
+alias setproxy='export http_proxy="http://localhost:8080" && export https_proxy="http://localhost:8080" && echo "Proxy set to Burpsuite"'
+alias unsetproxy='unset http_proxy && unset https_proxy && echo "Proxy unset"'
+```
+
+From now use **setproxy** in the new shell when ever we wants to intercept the traffic from CLI tools.
+
+To remove the proxy we can use **unsetproxy**.
