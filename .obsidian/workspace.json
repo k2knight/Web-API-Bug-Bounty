@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "715e8139678c04a9",
+        "id": "6077b6a7b224cfb2",
         "type": "tabs",
         "children": [
           {
-            "id": "83eee2dd4d72dff0",
+            "id": "7c6b78658b1e942d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Pentesting/Reverse Engineering API.md",
+                "file": "API Pentesting/Authentication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API Pentesting/Reverse Engineering API.md",
+                "file": "API Pentesting/Authentication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API Pentesting/Reverse Engineering API.md",
+                "file": "API Pentesting/Authentication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API Pentesting/Reverse Engineering API.md"
+                "file": "API Pentesting/Authentication.md"
               }
             }
           }
@@ -147,9 +147,10 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "83eee2dd4d72dff0",
+  "active": "7c6b78658b1e942d",
   "lastOpenFiles": [
     "API Pentesting/Reverse Engineering API.md",
+    "API Pentesting/Excessive Data Exposure.md",
     "Web Pentesting/Inection/SQLi Payloads.md",
     "Web Pentesting/Inection/SQL Payloads.md",
     "Web Pentesting/JWT.md",
@@ -174,7 +175,6 @@
     "Web Pentesting/Clickjacking.md",
     "Web Pentesting/Captcha Bypass.md",
     "Web Pentesting/Cache Poisoning.md",
-    "Web Pentesting/XSS/XSS.md",
     "Web Pentesting/Inection/LFI_Payloads.txt",
     "Web Pentesting/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Testing Folder",
