@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "6077b6a7b224cfb2",
+        "id": "3126e1118ce3e8a8",
         "type": "tabs",
         "children": [
           {
-            "id": "7c6b78658b1e942d",
+            "id": "c00d660c43972f62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Pentesting/Authentication.md",
+                "file": "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2336403d86550e4c",
+            "id": "3d5054f2800aee4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "API Pentesting/API Checklist.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e115c28e2b464798",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API Pentesting/API Pentesting.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "920bbbb2bd5f7ea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "API Pentesting/BFLA.md",
+                "file": "Web Pentesting/Inection/XPath Injection.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "API Pentesting/API Pentesting.md",
+                "file": "Web Pentesting/Inection/XPath Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "API Pentesting/API Pentesting.md",
+                "file": "Web Pentesting/Inection/XPath Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "API Pentesting/API Pentesting.md"
+                "file": "Web Pentesting/Inection/XPath Injection.md"
               }
             }
           }
@@ -184,12 +160,16 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "e115c28e2b464798",
+  "active": "3d5054f2800aee4a",
   "lastOpenFiles": [
+    "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
+    "Web Pentesting/Inection/LDAP Injection.md",
+    "Web Pentesting/Inection/XPath Injection.md",
+    "API Pentesting/Authentication.md",
     "API Pentesting/API Checklist.md",
+    "API Pentesting/API Pentesting.md",
     "API Pentesting/BOLA.md",
     "API Pentesting/BFLA.md",
-    "API Pentesting/Authentication.md",
     "API Pentesting/Reverse Engineering API.md",
     "API Pentesting/Excessive Data Exposure.md",
     "Web Pentesting/Inection/SQLi Payloads.md",
@@ -208,10 +188,6 @@
     "Bug Bounty/Data Breach Search Engines.md",
     "Web Pentesting/Parameter Pollution.md",
     "Web Pentesting/OAuth.md",
-    "Web Pentesting/Missing HSTS.md",
-    "Web Pentesting/Long length DoS.md",
-    "Web Pentesting/Git.md",
-    "Web Pentesting/File Upload.md",
     "Web Pentesting/Inection/LFI_Payloads.txt",
     "Web Pentesting/Inection/SQLMAP Advanced Cheatsheet.pdf",
     "Testing Folder",
