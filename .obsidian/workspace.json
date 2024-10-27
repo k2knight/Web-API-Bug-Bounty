@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pentesting/Inection/XPath Injection.md",
+                "file": "Web Pentesting/CORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "XPath Injection"
+              "title": "CORS"
             }
           }
         ],
@@ -180,9 +180,9 @@
   },
   "active": "3d5054f2800aee4a",
   "lastOpenFiles": [
+    "Web Pentesting/Inection/XPath Injection.md",
     "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
     "Web Pentesting/Inection/LDAP Injection.md",
-    "Web Pentesting/Inection/XPath Injection.md",
     "API Pentesting/Authentication.md",
     "API Pentesting/API Checklist.md",
     "API Pentesting/API Pentesting.md",
