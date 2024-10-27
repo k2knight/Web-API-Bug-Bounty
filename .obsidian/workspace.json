@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "707045da808af1db",
+        "id": "4a47ead25c530c83",
         "type": "tabs",
         "children": [
           {
-            "id": "a008d35475abfdf7",
+            "id": "fead45359318f4ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug Bounty/Browser Extensions.md",
+                "file": "Web Pentesting/RCE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Browser Extensions"
-            }
-          },
-          {
-            "id": "4567baaee499561c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BB Begin Commands.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "BB Begin Commands"
+              "title": "RCE"
             }
           }
         ]
@@ -177,11 +163,11 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "a008d35475abfdf7",
+  "active": "fead45359318f4ce",
   "lastOpenFiles": [
-    "Web Pentesting/JavaScript Vulnerabilities.md",
-    "Bug Bounty/Browser Extensions.md",
     "BB Begin Commands.md",
+    "Bug Bounty/Browser Extensions.md",
+    "Web Pentesting/JavaScript Vulnerabilities.md",
     "Web Pentesting/CORS.md",
     "Bug Bounty/JS Files.md",
     "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
