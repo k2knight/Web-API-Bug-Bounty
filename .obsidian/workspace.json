@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d3a0a5e3d51cce1d",
+            "id": "a008d35475abfdf7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web Pentesting/CORS.md",
+                "file": "Web Pentesting/JavaScript Vulnerabilities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CORS"
+              "title": "JavaScript Vulnerabilities"
             }
           }
         ]
@@ -163,12 +163,12 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "d3a0a5e3d51cce1d",
+  "active": "a008d35475abfdf7",
   "lastOpenFiles": [
+    "Web Pentesting/CORS.md",
     "Web Pentesting/JavaScript Vulnerabilities.md",
     "Bug Bounty/JS Files.md",
     "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
-    "Web Pentesting/CORS.md",
     "Web Pentesting/Inection/XPath Injection.md",
     "Web Pentesting/Inection/LDAP Injection.md",
     "API Pentesting/Authentication.md",
