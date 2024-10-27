@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "JavaScript Vulnerabilities"
             }
+          },
+          {
+            "id": "4567baaee499561c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BB Begin Commands.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BB Begin Commands"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +178,10 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "a008d35475abfdf7",
+  "active": "4567baaee499561c",
   "lastOpenFiles": [
-    "Web Pentesting/CORS.md",
     "Web Pentesting/JavaScript Vulnerabilities.md",
+    "Web Pentesting/CORS.md",
     "Bug Bounty/JS Files.md",
     "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
     "Web Pentesting/Inection/XPath Injection.md",
