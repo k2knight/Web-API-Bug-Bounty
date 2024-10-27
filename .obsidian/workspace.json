@@ -34,21 +34,9 @@
               "icon": "lucide-file",
               "title": "XPath Injection"
             }
-          },
-          {
-            "id": "8565f67810e19ef1",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
+                "file": "Web Pentesting/Inection/XPath Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for HTML Injection in PDF Generators"
+              "title": "Backlinks for XPath Injection"
             }
           },
           {
@@ -139,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
+                "file": "Web Pentesting/Inection/XPath Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from HTML Injection in PDF Generators"
+              "title": "Outgoing links from XPath Injection"
             }
           },
           {
@@ -166,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web Pentesting/Inection/HTML Injection in PDF Generators.md"
+                "file": "Web Pentesting/Inection/XPath Injection.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of HTML Injection in PDF Generators"
+              "title": "Outline of XPath Injection"
             }
           }
         ]
@@ -190,7 +178,7 @@
       "cmdr:Commander: Git Commit & Push": false
     }
   },
-  "active": "8565f67810e19ef1",
+  "active": "3d5054f2800aee4a",
   "lastOpenFiles": [
     "Web Pentesting/Inection/HTML Injection in PDF Generators.md",
     "Web Pentesting/Inection/LDAP Injection.md",
